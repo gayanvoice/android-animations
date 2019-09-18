@@ -8,19 +8,18 @@ public class Fade {
     public static AnimatorSet In(View view) {
         AnimatorSet animatorSet = new AnimatorSet();
 
-        ObjectAnimator object1 = ObjectAnimator.ofFloat(view, "alpha", 0, 1, 1, 1);
-        ObjectAnimator object2 = ObjectAnimator.ofFloat(view, "scaleX", 0.3f, 1.05f, 0.9f, 1);
-        ObjectAnimator object3 = ObjectAnimator.ofFloat(view, "scaleY", 0.3f, 1.05f, 0.9f, 1);
+        ObjectAnimator object = ObjectAnimator.ofFloat(view, "alpha", 0, 1);
 
-        animatorSet.playTogether(object1, object2, object3);
+        animatorSet.playTogether(object);
         return animatorSet;
     }
 
     public static AnimatorSet InDown(View view){
         AnimatorSet animatorSet = new AnimatorSet();
         long height = - view.getHeight();
-        ObjectAnimator object1 =   ObjectAnimator.ofFloat(view,  "alpha", 0, 1, 1, 1);
-        ObjectAnimator object2 =   ObjectAnimator.ofFloat(view,  "translationY", height, 30, -10, 0);
+
+        ObjectAnimator object1 =   ObjectAnimator.ofFloat(view,  "alpha", 0, 1);
+        ObjectAnimator object2 =   ObjectAnimator.ofFloat(view,   "translationY", height / 4, 0);
 
         animatorSet.playTogether(object1, object2);
         return animatorSet;
@@ -30,8 +29,8 @@ public class Fade {
         AnimatorSet animatorSet = new AnimatorSet();
         long width =  - view.getWidth();
 
-        ObjectAnimator object1 = ObjectAnimator.ofFloat(view, "translationX", width, 30, -10, 0);
-        ObjectAnimator object2 = ObjectAnimator.ofFloat(view, "alpha", 0, 1, 1, 1);
+        ObjectAnimator object1 = ObjectAnimator.ofFloat(view, "alpha", 0, 1);
+        ObjectAnimator object2 = ObjectAnimator.ofFloat(view, "translationX", width / 4, 0);
 
         animatorSet.playTogether(object1, object2);
         return animatorSet;
@@ -39,11 +38,10 @@ public class Fade {
 
     public static AnimatorSet InRight(View view){
         AnimatorSet animatorSet = new AnimatorSet();
-        long width =  - view.getWidth();
-        long measured_width =  - view.getMeasuredWidth();
+        long width =  view.getWidth();
 
-        ObjectAnimator object1 = ObjectAnimator.ofFloat(view,  "translationX", measured_width + width, -30, 10, 0);
-        ObjectAnimator object2 = ObjectAnimator.ofFloat(view,   "alpha", 0, 1, 1, 1);
+        ObjectAnimator object1 = ObjectAnimator.ofFloat(view,  "alpha", 0, 1);
+        ObjectAnimator object2 = ObjectAnimator.ofFloat(view,   "translationX", width / 4, 0);
 
         animatorSet.playTogether(object1, object2);
         return animatorSet;
@@ -51,10 +49,10 @@ public class Fade {
 
     public static AnimatorSet InUp(View view){
         AnimatorSet animatorSet = new AnimatorSet();
-        long measured_height = view.getMeasuredHeight();
+        long height = view.getHeight();
 
-        ObjectAnimator object1 = ObjectAnimator.ofFloat(view,   "translationY", measured_height, -30, 10, 0);
-        ObjectAnimator object2 = ObjectAnimator.ofFloat(view,   "alpha", 0, 1, 1, 1);
+        ObjectAnimator object1 = ObjectAnimator.ofFloat(view,   "alpha", 0, 1);
+        ObjectAnimator object2 = ObjectAnimator.ofFloat(view,    "translationY", height / 4, 0);
 
         animatorSet.playTogether(object1, object2);
         return animatorSet;
