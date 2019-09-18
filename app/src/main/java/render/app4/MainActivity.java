@@ -17,7 +17,8 @@ public class MainActivity extends AppCompatActivity {
         TextView textview = findViewById(R.id.textview1);
 
         render = new Render(this);
-        render.setAnimation(Attention.Flash(textview));
+        render.setDuration(2000);
+        render.setAnimation(Attention.StandUp(textview));
 
         textview.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
