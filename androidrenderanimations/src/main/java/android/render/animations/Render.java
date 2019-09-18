@@ -1,13 +1,13 @@
 package android.render.animations;
 
-import android.animation.ObjectAnimator;
+import android.animation.AnimatorSet;
 import android.content.Context;
 import android.view.animation.AccelerateDecelerateInterpolator;
 
 public class Render {
-    long duration = 1000;
-    Context cx;
-    ObjectAnimator animation;
+    private long duration = 1000;
+    private Context cx;
+    private AnimatorSet animatorSet;
 
     // Render render = new Render(this)
     public Render  (Context cx) {
@@ -15,15 +15,15 @@ public class Render {
     }
 
     // render.setAnimation(Anim.FadeInRight(textView))
-    public void setAnimation (ObjectAnimator animation) {
-        this.animation = animation;
+    public void setAnimation (AnimatorSet animationSet) {
+        this.animatorSet = animationSet;
     }
 
     // render.start()
     public void start() {
-        animation.setDuration(duration);
-        animation.setInterpolator(new AccelerateDecelerateInterpolator());
-        animation.start();
+        animatorSet.setDuration(duration);
+        animatorSet.setInterpolator(new AccelerateDecelerateInterpolator());
+        animatorSet.start();
     }
 
     // render.setDuration(false)
