@@ -53,6 +53,7 @@ public class Bounce {
     public static AnimatorSet InDown(View view){
         AnimatorSet animatorSet = new AnimatorSet();
         long height = - view.getHeight();
+
         ObjectAnimator object1 =   ObjectAnimator.ofFloat(view,  "alpha", 0, 1, 1, 1);
         ObjectAnimator object2 =   ObjectAnimator.ofFloat(view,  "translationY", height, 30, -10, 0);
 
