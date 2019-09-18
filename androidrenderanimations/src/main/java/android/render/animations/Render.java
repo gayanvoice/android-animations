@@ -19,7 +19,6 @@ public class Render {
         this.animation = animation;
     }
 
-
     // render.start()
     public void start() {
         animation.setDuration(duration);
