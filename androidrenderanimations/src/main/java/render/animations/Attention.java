@@ -5,7 +5,6 @@ import android.animation.ObjectAnimator;
 import android.view.View;
 
 public class Attention{
-
     public static AnimatorSet Bounce(View view) {
         AnimatorSet animatorSet = new AnimatorSet();
 
