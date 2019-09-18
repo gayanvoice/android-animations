@@ -1,4 +1,5 @@
 package render.animations;
+
 import android.animation.AnimatorSet;
 import android.animation.ObjectAnimator;
 import android.view.View;
