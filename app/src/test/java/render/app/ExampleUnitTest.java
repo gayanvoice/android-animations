@@ -1,4 +1,4 @@
-package render.app4;
+package render.app;
 
 import org.junit.Test;
 

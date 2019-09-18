@@ -1,4 +1,4 @@
-package render.app4;
+package render.app;
 
 import androidx.appcompat.app.AppCompatActivity;
 import android.os.Bundle;

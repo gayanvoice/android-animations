@@ -1,4 +1,4 @@
-package render.app4;
+package render.app;
 
 import android.content.Context;
 import androidx.test.platform.app.InstrumentationRegistry;
