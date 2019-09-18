@@ -18,7 +18,7 @@ public class MainActivity extends AppCompatActivity {
 
         render = new Render(this);
         render.setDuration(2000);
-        render.setAnimation(Attention.StandUp(textview));
+        render.setAnimation(Attention.Wobble(textview));
 
         textview.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
