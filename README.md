@@ -20,11 +20,11 @@ dependencies {
   	implementation 'com.github.gayankuruppu:android-view-animations-java:1.0.1'
 }
 ```
-## Import Render to Activity
+## Import render animations
 ```
 import render.animations.*;
 ```
-## Import Render to your Activity
+## Start animation
 ```
 TextView TextView = findViewById(R.id.TextView);
 
