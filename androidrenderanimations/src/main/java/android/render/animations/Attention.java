@@ -4,21 +4,22 @@ import android.animation.ObjectAnimator;
 import android.view.View;
 
 public class Attention{
+
     public static AnimatorSet Bounce(View view) {
         AnimatorSet animatorSet = new AnimatorSet();
 
-        ObjectAnimator object1 = ObjectAnimator.ofFloat(view, "translationY", 0, 0, -30, 0, -15, 0, 0);
+        ObjectAnimator object = ObjectAnimator.ofFloat(view, "translationY", 0, 0, -30, 0, -15, 0, 0);
 
-        animatorSet.playTogether(object1);
+        animatorSet.playTogether(object);
         return animatorSet;
     }
 
     public static AnimatorSet Flash(View view){
         AnimatorSet animatorSet = new AnimatorSet();
 
-        ObjectAnimator object1 =   ObjectAnimator.ofFloat(view, "alpha", 1, 0, 1, 0, 1);
+        ObjectAnimator object =   ObjectAnimator.ofFloat(view, "alpha", 1, 0, 1, 0, 1);
 
-        animatorSet.playTogether(object1);
+        animatorSet.playTogether(object);
         return animatorSet;
     }
 
@@ -45,9 +46,9 @@ public class Attention{
     public static AnimatorSet Shake(View view){
         AnimatorSet animatorSet = new AnimatorSet();
 
-        ObjectAnimator object1 = ObjectAnimator.ofFloat(view,   "translationX", 0, 25, -25, 25, -25, 15, -15, 6, -6, 0);
+        ObjectAnimator object = ObjectAnimator.ofFloat(view,   "translationX", 0, 25, -25, 25, -25, 15, -15, 6, -6, 0);
 
-        animatorSet.playTogether(object1);
+        animatorSet.playTogether(object);
         return animatorSet;
     }
 
@@ -68,6 +69,7 @@ public class Attention{
         AnimatorSet animatorSet = new AnimatorSet();
 
         ObjectAnimator object = ObjectAnimator.ofFloat(view,   "rotation", 0, 10, -10, 6, -6, 3, -3, 0);
+
         animatorSet.playTogether(object);
         return animatorSet;
     }
@@ -107,6 +109,4 @@ public class Attention{
         animatorSet.playTogether(object1, object2);
         return animatorSet;
     }
-
-
 }
