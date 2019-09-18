@@ -61,6 +61,7 @@ public class Fade {
     /*
     Out
      */
+
     public static AnimatorSet Out(View view) {
         AnimatorSet animatorSet = new AnimatorSet();
 
