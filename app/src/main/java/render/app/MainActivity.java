@@ -2,7 +2,6 @@ package render.app;
 
 import androidx.appcompat.app.AppCompatActivity;
 import android.os.Bundle;
-import render.animations.Attention;
 import render.animations.Bounce;
 import render.animations.Render;
 import android.view.View;
@@ -19,7 +18,7 @@ public class MainActivity extends AppCompatActivity {
 
         render = new Render(this);
         render.setDuration(2000);
-        render.setAnimation(Bounce.In(textview));
+        render.setAnimation(Bounce.InRight(textview));
 
         textview.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
