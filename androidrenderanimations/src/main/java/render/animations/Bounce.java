@@ -16,16 +16,6 @@ public class Bounce {
         return animatorSet;
     }
 
-    public static AnimatorSet InDown(View view){
-        AnimatorSet animatorSet = new AnimatorSet();
-        long height = - view.getHeight();
-        ObjectAnimator object1 =   ObjectAnimator.ofFloat(view,  "alpha", 0, 1, 1, 1);
-        ObjectAnimator object2 =   ObjectAnimator.ofFloat(view,  "translationY", height, 30, -10, 0);
-
-        animatorSet.playTogether(object1, object2);
-        return animatorSet;
-    }
-
     public static AnimatorSet InLeft(View view){
         AnimatorSet animatorSet = new AnimatorSet();
         long width =  - view.getWidth();
@@ -55,6 +45,16 @@ public class Bounce {
 
         ObjectAnimator object1 = ObjectAnimator.ofFloat(view,   "translationY", measured_height, -30, 10, 0);
         ObjectAnimator object2 = ObjectAnimator.ofFloat(view,   "alpha", 0, 1, 1, 1);
+
+        animatorSet.playTogether(object1, object2);
+        return animatorSet;
+    }
+
+    public static AnimatorSet InDown(View view){
+        AnimatorSet animatorSet = new AnimatorSet();
+        long height = - view.getHeight();
+        ObjectAnimator object1 =   ObjectAnimator.ofFloat(view,  "alpha", 0, 1, 1, 1);
+        ObjectAnimator object2 =   ObjectAnimator.ofFloat(view,  "translationY", height, 30, -10, 0);
 
         animatorSet.playTogether(object1, object2);
         return animatorSet;
