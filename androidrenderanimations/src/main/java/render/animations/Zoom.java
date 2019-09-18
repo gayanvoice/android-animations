@@ -131,10 +131,10 @@ public class Zoom {
         AnimatorSet animatorSet = new AnimatorSet();
         float bottom = -view.getBottom();
 
-        ObjectAnimator object1 = ObjectAnimator.ofFloat(view,    "alpha", 1, 1, 0);
-        ObjectAnimator object2 = ObjectAnimator.ofFloat(view,    "scaleX", 1, 0.475f, 0.1f);
-        ObjectAnimator object3 = ObjectAnimator.ofFloat(view,      "scaleY", 1, 0.475f, 0.1f);
-        ObjectAnimator object4 = ObjectAnimator.ofFloat(view,    "translationY", 0, 60, bottom);
+        ObjectAnimator object1 = ObjectAnimator.ofFloat(view, "alpha", 1, 1, 0);
+        ObjectAnimator object2 = ObjectAnimator.ofFloat(view, "scaleX", 1, 0.475f, 0.1f);
+        ObjectAnimator object3 = ObjectAnimator.ofFloat(view, "scaleY", 1, 0.475f, 0.1f);
+        ObjectAnimator object4 = ObjectAnimator.ofFloat(view, "translationY", 0, 60, bottom);
 
         animatorSet.playTogether(object1, object2, object3, object4);
         return animatorSet;
