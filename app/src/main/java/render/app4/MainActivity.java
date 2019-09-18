@@ -2,8 +2,8 @@ package render.app4;
 
 import androidx.appcompat.app.AppCompatActivity;
 import android.os.Bundle;
-import android.render.animations.Attention;
-import android.render.animations.Render;
+import render.animations.Attention;
+import render.animations.Render;
 import android.view.View;
 import android.widget.TextView;
 

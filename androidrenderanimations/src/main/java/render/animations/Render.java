@@ -1,4 +1,4 @@
-package android.render.animations;
+package render.animations;
 
 import android.animation.AnimatorSet;
 import android.content.Context;

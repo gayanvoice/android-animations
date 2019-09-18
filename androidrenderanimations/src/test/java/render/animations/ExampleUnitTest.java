@@ -1,4 +1,4 @@
-package android.render.animations;
+package render.animations;
 
 import org.junit.Test;
 
