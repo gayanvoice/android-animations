@@ -1,5 +1,5 @@
 # Android View Animations in Java
-
+[![](https://jitpack.io/v/gayankuruppu/android-view-animations-java.svg)](https://jitpack.io/#gayankuruppu/android-view-animations-java)
 Android animations for views such as Button, TextView, ImageView and etc. Just import the library and start coding ;)
 
 # Usage
