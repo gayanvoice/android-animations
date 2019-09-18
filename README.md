@@ -20,3 +20,15 @@ dependencies {
   	implementation 'com.github.gayankuruppu:android-view-animations-java:1.0.1'
 }
 ```
+## Import Render to Activity
+```
+import render.animations.*;
+```
+## Import Render to your Activity
+```
+TextView TextView = findViewById(R.id.TextView);
+
+Render render = new Render(MainActivity.this);
+render.setAnimation(Attention.Wobble(TextView));
+render.start();
+```
