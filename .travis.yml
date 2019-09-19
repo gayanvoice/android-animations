@@ -1,29 +1,36 @@
 language: android
-jdk: oraclejdk8
-env:
- global:
-    - ANDROID_API_LEVEL=28
-    - ANDROID_BUILD_TOOLS_VERSION=29.0.0
+cache:
+  directories:
+  - "$HOME/.gradle/caches/"
+  - "$HOME/.gradle/wrapper/"
+  - "$HOME/.m2"
+  - "$HOME/.cache"
+before_install:
+- export TRAVIS_GIT_BRANCH=$(if [ "$TRAVIS_PULL_REQUEST" == "false" ]; then echo $TRAVIS_BRANCH;
+  else echo $TRAVIS_PULL_REQUEST_BRANCH; fi)
+- export GIT_SHA=$(git rev-parse HEAD)
+- export GIT_MERGE_BASE=$(git merge-base master)
+- echo GIT_SHA $GIT_SHA
+- echo GIT_MERGE_BASE $GIT_MERGE_BASE
+after_success:
+  - ./deploy_snapshot.sh
 android:
- licenses:
-    - 'android-sdk-preview-license-.+'
-    - 'android-sdk-license-.+'
-    - 'google-gdk-license-.+'
- components:
-    - tools
-    - platform-tools
-    # The BuildTools version used by your project
-    - build-tools-$ANDROID_BUILD_TOOLS_VERSION
-    # The SDK version used to compile your project
-    - android-$ANDROID_API_LEVEL
-    # Additional components
-    - extra-google-google_play_services
-    - extra-google-m2repository
-    - extra-android-m2repository
-    - addon-google_apis-google-$ANDROID_API_LEVEL
-before_script:
-    # Prepare pre-accepted licenses to not be promted at installation
-    - mkdir -p "$ANDROID_HOME/licenses"
-    - cp ./google-licenses/* "$ANDROID_HOME/licenses/"
-script:
-    - ./gradlew build check
+  components:
+  - tools
+  - platform-tools
+  - tools
+  - build-tools-28.0.2
+  - android-28
+  - extra-android-m2repository
+jdk:
+- oraclejdk8
+branches:
+  except:
+  - gh-pages
+notifications:
+  email: false
+jobs:
+  include:
+  - stage: test
+    name: Test
+    script: "./gradlew lintRelease testReleaseUnitTest"
