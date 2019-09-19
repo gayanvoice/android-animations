@@ -1,37 +1,19 @@
 language: android
-cache:
-  directories:
-  - "$HOME/.gradle/caches/"
-  - "$HOME/.gradle/wrapper/"
-  - "$HOME/.m2"
-  - "$HOME/.cache"
+
 before_install:
-- export TRAVIS_GIT_BRANCH=$(if [ "$TRAVIS_PULL_REQUEST" == "false" ]; then echo $TRAVIS_BRANCH;
-  else echo $TRAVIS_PULL_REQUEST_BRANCH; fi)
-- export GIT_SHA=$(git rev-parse HEAD)
-- export GIT_MERGE_BASE=$(git merge-base master)
-- echo GIT_SHA $GIT_SHA
-- echo GIT_MERGE_BASE $GIT_MERGE_BASE
-- chmod +x gradlew
-after_success:
-  - ./deploy_snapshot.sh
+ - chmod +x gradlew
+
+script: ./gradlew test
+
 android:
   components:
-  - tools
-  - platform-tools
-  - tools
-  - build-tools-28.0.2
-  - android-28
-  - extra-android-m2repository
-jdk:
-- oraclejdk8
-branches:
-  except:
-  - gh-pages
-notifications:
-  email: false
-jobs:
-  include:
-  - stage: test
-    name: Test
-    script: "./gradlew lintRelease testReleaseUnitTest"
+     # Uncomment the lines below if you want to
+     # use the latest revision of Android SDK Tools
+    - platform-tools
+    - tools
+
+    # The BuildTools version used by your project
+    - build-tools-28.0.2
+
+    # The SDK version used to compile your project
+    - android-28
