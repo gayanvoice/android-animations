@@ -34,4 +34,4 @@ jobs:
   include:
   - stage: test
     name: Test
-    script: "chmod +x gradlew && ./gradlew lintRelease testReleaseUnitTest"
+    script: "./gradlew lintRelease testReleaseUnitTest"
