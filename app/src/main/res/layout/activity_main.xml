@@ -760,7 +760,7 @@
                         android:layout_weight="1"
                         android:textSize="12sp"
                         style="@style/Widget.AppCompat.Button.Borderless"
-                        android:text="@string/button_inleft" />
+                        android:text="@string/button_outleft" />
 
                     <Button
                         android:id="@+id/btn_zoom_outright"
@@ -769,7 +769,7 @@
                         android:layout_weight="1"
                         android:textSize="12sp"
                         style="@style/Widget.AppCompat.Button.Borderless"
-                        android:text="@string/button_inright" />
+                        android:text="@string/button_outright" />
                 </LinearLayout>
                 <LinearLayout
                     android:layout_width="match_parent"
