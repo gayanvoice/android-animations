@@ -38,7 +38,7 @@ public class Render {
         this.cx = cx;
     }
 
-    // render.setAnimation(Anim.FadeInRight(textView))
+    // render.setAnimation(Bounce.In(textView))
     public void setAnimation (AnimatorSet animationSet) {
         this.animatorSet = animationSet;
     }
@@ -50,7 +50,7 @@ public class Render {
         animatorSet.start();
     }
 
-    // render.setDuration(false)
+    // render.setDuration(2000)
     public void setDuration(long duration){
         this.duration = duration;
     }

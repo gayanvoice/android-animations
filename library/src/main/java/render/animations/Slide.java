@@ -30,6 +30,11 @@ import android.view.View;
 import android.view.ViewGroup;
 
 public class Slide {
+
+    /*
+    In
+     */
+
     public static AnimatorSet InDown(View view) {
         AnimatorSet animatorSet = new AnimatorSet();
         int distance = view.getTop() + view.getHeight();
@@ -76,6 +81,10 @@ public class Slide {
         animatorSet.playTogether(object1, object2);
         return animatorSet;
     }
+
+    /*
+    Out
+     */
 
     public static AnimatorSet OutDown(View view){
         AnimatorSet animatorSet = new AnimatorSet();

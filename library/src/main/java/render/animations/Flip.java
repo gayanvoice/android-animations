@@ -29,6 +29,11 @@ import android.animation.ObjectAnimator;
 import android.view.View;
 
 public class Flip {
+
+    /*
+    In
+     */
+
     public static AnimatorSet InX(View view) {
         AnimatorSet animatorSet = new AnimatorSet();
 
@@ -48,6 +53,10 @@ public class Flip {
         animatorSet.playTogether(object1, object2);
         return animatorSet;
     }
+
+    /*
+    Out
+     */
 
     public static AnimatorSet OutX(View view){
         AnimatorSet animatorSet = new AnimatorSet();

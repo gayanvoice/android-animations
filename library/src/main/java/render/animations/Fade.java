@@ -29,6 +29,11 @@ import android.animation.ObjectAnimator;
 import android.view.View;
 
 public class Fade {
+
+     /*
+    In
+     */
+
     public static AnimatorSet In(View view) {
         AnimatorSet animatorSet = new AnimatorSet();
 
