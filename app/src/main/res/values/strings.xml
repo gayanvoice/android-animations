@@ -25,6 +25,24 @@
     <string name="button_inleft">In Left</string>
     <string name="button_inright">In Right</string>
     <string name="button_inup">In Up</string>
+    <string name="button_inupright">In Up Right</string>
     <string name="button_indown">In Down</string>
+    <string name="button_indownleft">In Down Left</string>
+    <string name="button_indownright">In Down Right</string>
+
+    <string name="button_out">Out</string>
+    <string name="button_outleft">Out Left</string>
+    <string name="button_outright">Out Right</string>
+    <string name="button_outup">Out Up</string>
+    <string name="button_outupleft">Out Up Left</string>
+    <string name="button_outupright">Out Up Right</string>
+    <string name="button_outdown">Out Down</string>
+    <string name="button_outdownleft">Out Down Left</string>
+    <string name="button_outdownright">Out Down Right</string>
+
+    <string name="button_inx">In X</string>
+    <string name="button_iny">In Y</string>
+    <string name="button_outx">Out X</string>
+    <string name="button_outy">Out Y</string>
 
 </resources>
