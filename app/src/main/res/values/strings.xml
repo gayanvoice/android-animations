@@ -25,6 +25,7 @@
     <string name="button_inleft">In Left</string>
     <string name="button_inright">In Right</string>
     <string name="button_inup">In Up</string>
+    <string name="button_inupleft">In Up Left</string>
     <string name="button_inupright">In Up Right</string>
     <string name="button_indown">In Down</string>
     <string name="button_indownleft">In Down Left</string>
