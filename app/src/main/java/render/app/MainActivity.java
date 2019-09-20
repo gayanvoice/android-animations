@@ -37,7 +37,7 @@ public class MainActivity extends AppCompatActivity {
         Button buttonAttentionWobble = findViewById(R.id.btn_attention_wobble); // wobble
 
         Button buttonBounceInLeft = findViewById(R.id.btn_bounce_inleft); // bounce in left
-        Button buttonBounceInRight = findViewById(R.id.btn_bounce_inright); // error
+        Button buttonBounceInRight = findViewById(R.id.btn_bounce_inright); // bounce in right
         Button buttonBounceInUp = findViewById(R.id.button_bounce_inup); // bounce in up
         Button buttonBounceInDown = findViewById(R.id.btn_bounce_indown); // bounce in down
         Button buttonBounceIn = findViewById(R.id.btn_bounce_in); // bounce in

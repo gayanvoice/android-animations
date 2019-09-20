@@ -29,7 +29,7 @@ public class Bounce {
 
     public static AnimatorSet InRight(View view){
         AnimatorSet animatorSet = new AnimatorSet();
-        long width =  - view.getWidth();
+        long width =  view.getWidth();
         long measured_width =  view.getMeasuredWidth();
 
         ObjectAnimator object1 = ObjectAnimator.ofFloat(view,  "translationX", measured_width + width, -30, 10, 0);
