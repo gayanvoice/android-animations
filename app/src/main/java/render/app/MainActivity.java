@@ -9,6 +9,8 @@ import render.animations.Fade;
 import render.animations.Flip;
 import render.animations.Render;
 import render.animations.Rotate;
+import render.animations.Slide;
+import render.animations.Zoom;
 
 import android.view.View;
 import android.widget.Button;
@@ -68,14 +70,31 @@ public class MainActivity extends AppCompatActivity {
 
         Button buttonRotateIn = findViewById(R.id.btn_rotate_in);
         Button buttonRotateOut = findViewById(R.id.btn_rotate_out);
-        imageView = findViewById(R.id.iv_image);
 
+        Button buttonSlideInDown = findViewById(R.id.btn_slide_indown);
+        Button buttonSlideInLeft = findViewById(R.id.btn_slide_inleft);
+        Button buttonSlideInRight = findViewById(R.id.btn_slide_inright);
+        Button buttonSlideInUp = findViewById(R.id.btn_slide_inup);
+        Button buttonSlideOutDown = findViewById(R.id.btn_slide_outdown);
+        Button buttonSlideOutLeft = findViewById(R.id.btn_slide_outleft);
+        Button buttonSlideOutRight = findViewById(R.id.btn_slide_outright);
+        Button buttonSlideOutUp = findViewById(R.id.btn_slide_outup);
+
+        Button buttonZoomIn = findViewById(R.id.btn_zoom_in);
+        Button buttonZoomInDown = findViewById(R.id.btn_zoom_indown);
+        Button buttonZoomInLeft = findViewById(R.id.btn_zoom_inleft);
+        Button buttonZoomInRight = findViewById(R.id.btn_zoom_inright);
+        Button buttonZoomInUp = findViewById(R.id.btn_zoom_inup);
+        Button buttonZoomOut = findViewById(R.id.btn_zoom_out);
+        Button buttonZoomOutDown = findViewById(R.id.btn_zoom_outdown);
+        Button buttonZoomOutLeft = findViewById(R.id.btn_zoom_outleft);
+        Button buttonZoomOutRight = findViewById(R.id.btn_zoom_outright);
+        Button buttonZoomOutUp = findViewById(R.id.btn_zoom_outup);
+
+        imageView = findViewById(R.id.iv_image);
 
         render = new Render(this);
         render.setDuration(1000);
-
-
-
 
         buttonAttentionBounce.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
@@ -351,6 +370,132 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
+        buttonSlideInDown.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View v) {
+                render.setAnimation(Slide.InDown(imageView));
+                render.start();
+            }
+        });
+
+        buttonSlideInLeft.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View v) {
+                render.setAnimation(Slide.InLeft(imageView));
+                render.start();
+            }
+        });
+
+        buttonSlideInRight.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View v) {
+                render.setAnimation(Slide.InRight(imageView));
+                render.start();
+            }
+        });
+
+        buttonSlideInUp.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View v) {
+                render.setAnimation(Slide.InUp(imageView));
+                render.start();
+            }
+        });
+
+        buttonSlideOutDown.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View v) {
+                render.setAnimation(Slide.OutDown(imageView));
+                render.start();
+            }
+        });
+
+        buttonSlideOutLeft.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View v) {
+                render.setAnimation(Slide.OutLeft(imageView));
+                render.start();
+            }
+        });
+
+        buttonSlideOutRight.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View v) {
+                render.setAnimation(Slide.OutRight(imageView));
+                render.start();
+            }
+        });
+
+        buttonSlideOutUp.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View v) {
+                render.setAnimation(Slide.OutUp(imageView));
+                render.start();
+            }
+        });
+
+        buttonZoomIn.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View v) {
+                render.setAnimation(Zoom.In(imageView));
+                render.start();
+            }
+        });
+
+        buttonZoomInDown.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View v) {
+                render.setAnimation(Zoom.InDown(imageView));
+                render.start();
+            }
+        });
+
+
+        buttonZoomInLeft.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View v) {
+                render.setAnimation(Zoom.InLeft(imageView));
+                render.start();
+            }
+        });
+
+        buttonZoomInRight.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View v) {
+                render.setAnimation(Zoom.InRight(imageView));
+                render.start();
+            }
+        });
+
+        buttonZoomInUp.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View v) {
+                render.setAnimation(Zoom.InUp(imageView));
+                render.start();
+            }
+        });
+
+        buttonZoomOut.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View v) {
+                render.setAnimation(Zoom.Out(imageView));
+                render.start();
+            }
+        });
+
+        buttonZoomOutDown.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View v) {
+                render.setAnimation(Zoom.OutDown(imageView));
+                render.start();
+            }
+        });
+
+        buttonZoomOutLeft.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View v) {
+                render.setAnimation(Zoom.OutLeft(imageView));
+                render.start();
+            }
+        });
+
+        buttonZoomOutRight.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View v) {
+                render.setAnimation(Zoom.OutRight(imageView));
+                render.start();
+            }
+        });
+
+        buttonZoomOutUp.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View v) {
+                render.setAnimation(Zoom.OutUp(imageView));
+                render.start();
+            }
+        });
 
     }
 }

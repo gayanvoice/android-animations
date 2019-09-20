@@ -387,7 +387,7 @@
                     android:layout_height="wrap_content"
                     android:layout_marginBottom="10dp"
                     android:layout_marginTop="10dp"
-                    android:text="@string/text_Flip"
+                    android:text="@string/text_flip"
                     android:textAlignment="center"
                     android:textAllCaps="true"
                     android:textStyle="bold" />
@@ -444,7 +444,7 @@
                     android:layout_height="wrap_content"
                     android:layout_marginBottom="10dp"
                     android:layout_marginTop="10dp"
-                    android:text="@string/text_Rotate"
+                    android:text="@string/text_rotate"
                     android:textAlignment="center"
                     android:textAllCaps="true"
                     android:textStyle="bold" />
@@ -472,7 +472,6 @@
                         style="@style/Widget.AppCompat.Button.Borderless"
                         android:text="@string/button_indownright" />
                 </LinearLayout>
-
                 <LinearLayout
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
@@ -519,7 +518,6 @@
                         style="@style/Widget.AppCompat.Button.Borderless"
                         android:text="@string/button_outdownright" />
                 </LinearLayout>
-
                 <LinearLayout
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
@@ -543,7 +541,6 @@
                         style="@style/Widget.AppCompat.Button.Borderless"
                         android:text="@string/button_outupright" />
                 </LinearLayout>
-
                 <LinearLayout
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
@@ -568,6 +565,235 @@
                         android:text="@string/button_out" />
                 </LinearLayout>
 
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="10dp"
+                    android:layout_marginTop="10dp"
+                    android:text="@string/text_slide"
+                    android:textAlignment="center"
+                    android:textAllCaps="true"
+                    android:textStyle="bold" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <Button
+                        android:id="@+id/btn_slide_indown"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:textSize="12sp"
+                        style="@style/Widget.AppCompat.Button.Borderless"
+                        android:text="@string/button_indown" />
+
+                    <Button
+                        android:id="@+id/btn_slide_inup"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:textSize="12sp"
+                        style="@style/Widget.AppCompat.Button.Borderless"
+                        android:text="@string/button_inup" />
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <Button
+                        android:id="@+id/btn_slide_inleft"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:textSize="12sp"
+                        style="@style/Widget.AppCompat.Button.Borderless"
+                        android:text="@string/button_inleft" />
+
+                    <Button
+                        android:id="@+id/btn_slide_inright"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:textSize="12sp"
+                        style="@style/Widget.AppCompat.Button.Borderless"
+                        android:text="@string/button_inright" />
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <Button
+                        android:id="@+id/btn_slide_outdown"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:textSize="12sp"
+                        style="@style/Widget.AppCompat.Button.Borderless"
+                        android:text="@string/button_outdown"
+                        tools:ignore="TooManyViews" />
+
+                    <Button
+                        android:id="@+id/btn_slide_outup"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:textSize="12sp"
+                        style="@style/Widget.AppCompat.Button.Borderless"
+                        android:text="@string/button_outup" />
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <Button
+                        android:id="@+id/btn_slide_outleft"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:textSize="12sp"
+                        style="@style/Widget.AppCompat.Button.Borderless"
+                        android:text="@string/button_inleft" />
+
+                    <Button
+                        android:id="@+id/btn_slide_outright"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:textSize="12sp"
+                        style="@style/Widget.AppCompat.Button.Borderless"
+                        android:text="@string/button_inright" />
+                </LinearLayout>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="10dp"
+                    android:layout_marginTop="10dp"
+                    android:text="@string/text_zoom"
+                    android:textAlignment="center"
+                    android:textAllCaps="true"
+                    android:textStyle="bold" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <Button
+                        android:id="@+id/btn_zoom_indown"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:textSize="12sp"
+                        style="@style/Widget.AppCompat.Button.Borderless"
+                        android:text="@string/button_indown" />
+
+                    <Button
+                        android:id="@+id/btn_zoom_inup"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:textSize="12sp"
+                        style="@style/Widget.AppCompat.Button.Borderless"
+                        android:text="@string/button_inup" />
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <Button
+                        android:id="@+id/btn_zoom_inleft"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:textSize="12sp"
+                        style="@style/Widget.AppCompat.Button.Borderless"
+                        android:text="@string/button_inleft" />
+
+                    <Button
+                        android:id="@+id/btn_zoom_inright"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:textSize="12sp"
+                        style="@style/Widget.AppCompat.Button.Borderless"
+                        android:text="@string/button_inright" />
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <Button
+                        android:id="@+id/btn_zoom_outdown"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:textSize="12sp"
+                        style="@style/Widget.AppCompat.Button.Borderless"
+                        android:text="@string/button_outdown" />
+
+                    <Button
+                        android:id="@+id/btn_zoom_outup"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:textSize="12sp"
+                        style="@style/Widget.AppCompat.Button.Borderless"
+                        android:text="@string/button_outup" />
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <Button
+                        android:id="@+id/btn_zoom_outleft"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:textSize="12sp"
+                        style="@style/Widget.AppCompat.Button.Borderless"
+                        android:text="@string/button_inleft" />
+
+                    <Button
+                        android:id="@+id/btn_zoom_outright"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:textSize="12sp"
+                        style="@style/Widget.AppCompat.Button.Borderless"
+                        android:text="@string/button_inright" />
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <Button
+                        android:id="@+id/btn_zoom_in"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:textSize="12sp"
+                        style="@style/Widget.AppCompat.Button.Borderless"
+                        android:text="@string/button_in" />
+
+                    <Button
+                        android:id="@+id/btn_zoom_out"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:textSize="12sp"
+                        style="@style/Widget.AppCompat.Button.Borderless"
+                        android:text="@string/button_out" />
+                </LinearLayout>
 
 
             </LinearLayout>
