@@ -95,7 +95,7 @@ public class Fade {
 
     public static AnimatorSet OutUp(View view){
         AnimatorSet animatorSet = new AnimatorSet();
-        long height = view.getHeight();
+        long height = - view.getHeight();
 
         ObjectAnimator object1 = ObjectAnimator.ofFloat(view,   "alpha", 1, 0);
         ObjectAnimator object2 = ObjectAnimator.ofFloat(view,    "translationY", 0, height / 4);
