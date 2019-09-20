@@ -15,6 +15,7 @@ import render.animations.Zoom;
 import android.view.View;
 import android.widget.Button;
 import android.widget.ImageView;
+
 public class MainActivity extends AppCompatActivity {
     Render render;
     ImageView imageView;
@@ -24,72 +25,72 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        Button buttonAttentionBounce = findViewById(R.id.btn_attention_bounce);
-        Button buttonAttentionFlash = findViewById(R.id.btn_attention_flash);
-        Button buttonAttentionPulse = findViewById(R.id.btn_attention_pulse);
-        Button buttonAttentionRuberband = findViewById(R.id.btn_attention_ruberband);
-        Button buttonAttentionShake = findViewById(R.id.btn_attention_shake);
-        Button buttonAttentionStandup = findViewById(R.id.btn_attention_stand_up);
-        Button buttonAttentionSwing = findViewById(R.id.btn_attention_swing);
-        Button buttonAttentionTada = findViewById(R.id.btn_attention_tada);
-        Button buttonAttentionWave = findViewById(R.id.btn_attention_wave);
-        Button buttonAttentionWobble = findViewById(R.id.btn_attention_wobble);
+        Button buttonAttentionBounce = findViewById(R.id.btn_attention_bounce); // bounce
+        Button buttonAttentionFlash = findViewById(R.id.btn_attention_flash); // flash
+        Button buttonAttentionPulse = findViewById(R.id.btn_attention_pulse); // pulse
+        Button buttonAttentionRuberband = findViewById(R.id.btn_attention_ruberband); // ruberband
+        Button buttonAttentionShake = findViewById(R.id.btn_attention_shake); // shake
+        Button buttonAttentionStandup = findViewById(R.id.btn_attention_stand_up); // standup
+        Button buttonAttentionSwing = findViewById(R.id.btn_attention_swing); // swing
+        Button buttonAttentionTada = findViewById(R.id.btn_attention_tada); // tada
+        Button buttonAttentionWave = findViewById(R.id.btn_attention_wave); // wave
+        Button buttonAttentionWobble = findViewById(R.id.btn_attention_wobble); // wobble
 
-        Button buttonBounceInLeft = findViewById(R.id.btn_bounce_inleft);
-        Button buttonBounceInRight = findViewById(R.id.btn_bounce_inright);
-        Button buttonBounceInUp = findViewById(R.id.button_bounce_inup);
-        Button buttonBounceInDown = findViewById(R.id.btn_bounce_indown);
-        Button buttonBounceIn = findViewById(R.id.btn_bounce_in);
+        Button buttonBounceInLeft = findViewById(R.id.btn_bounce_inleft); // bounce in left
+        Button buttonBounceInRight = findViewById(R.id.btn_bounce_inright); // error
+        Button buttonBounceInUp = findViewById(R.id.button_bounce_inup); // bounce in up
+        Button buttonBounceInDown = findViewById(R.id.btn_bounce_indown); // bounce in down
+        Button buttonBounceIn = findViewById(R.id.btn_bounce_in); // bounce in
 
-        Button buttonFadeInUp = findViewById(R.id.btn_fade_inup);
-        Button buttonFadeInDown = findViewById(R.id.btn_fade_indown);
-        Button buttonFadeInRight = findViewById(R.id.btn_fade_inright);
-        Button buttonFadeInLeft = findViewById(R.id.btn_fade_inleft);
+        Button buttonFadeInUp = findViewById(R.id.btn_fade_inup); // fade in up
+        Button buttonFadeInDown = findViewById(R.id.btn_fade_indown); // fade in down
+        Button buttonFadeInRight = findViewById(R.id.btn_fade_inright); // fade in right
+        Button buttonFadeInLeft = findViewById(R.id.btn_fade_inleft); // fade left
 
-        Button buttonFadeOutUp = findViewById(R.id.btn_fade_outup);
-        Button buttonFadeOutDown = findViewById(R.id.btn_fade_outdown);
-        Button buttonFadeOutRight = findViewById(R.id.btn_fade_outright);
-        Button buttonFadeOutLeft = findViewById(R.id.btn_fade_outleft);
+        Button buttonFadeOutUp = findViewById(R.id.btn_fade_outup); // error
+        Button buttonFadeOutDown = findViewById(R.id.btn_fade_outdown); // error
+        Button buttonFadeOutRight = findViewById(R.id.btn_fade_outright); // fade out right
+        Button buttonFadeOutLeft = findViewById(R.id.btn_fade_outleft); // fade out left
 
-        Button buttonFadeIn = findViewById(R.id.btn_fade_in);
-        Button buttonFadeOut = findViewById(R.id.btn_fade_out);
+        Button buttonFadeIn = findViewById(R.id.btn_fade_in); // fade in
+        Button buttonFadeOut = findViewById(R.id.btn_fade_out); // fade out
 
-        Button buttonFlipInX = findViewById(R.id.btn_flip_inx);
-        Button buttonFlipInY = findViewById(R.id.btn_flip_iny);
-        Button buttonFlipOutX = findViewById(R.id.btn_flip_outx);
-        Button buttonFlipOutY = findViewById(R.id.btn_flip_outy);
+        Button buttonFlipInX = findViewById(R.id.btn_flip_inx); // flip in x
+        Button buttonFlipInY = findViewById(R.id.btn_flip_iny); // flip in y
+        Button buttonFlipOutX = findViewById(R.id.btn_flip_outx); // flip out x
+        Button buttonFlipOutY = findViewById(R.id.btn_flip_outy); // flip out y
 
-        Button buttonRotateInDownLeft = findViewById(R.id.btn_rotate_indownleft);
-        Button buttonRotateInDownRight = findViewById(R.id.btn_rotate_indownright);
-        Button buttonRotateInUpLeft = findViewById(R.id.btn_rotate_inupleft);
-        Button buttonRotateInUpRight = findViewById(R.id.btn_rotate_inupright);
-        Button buttonRotateOutDownLeft = findViewById(R.id.btn_rotate_outdownleft);
-        Button buttonRotateOutDownRight = findViewById(R.id.btn_rotate_outdownright);
-        Button buttonRotateOutUpLeft = findViewById(R.id.btn_rotate_outupleft);
-        Button buttonRotateOutUpRight = findViewById(R.id.btn_rotate_outupright);
+        Button buttonRotateInDownLeft = findViewById(R.id.btn_rotate_indownleft); // rotate in down left
+        Button buttonRotateInDownRight = findViewById(R.id.btn_rotate_indownright); // rotate in down right
+        Button buttonRotateInUpLeft = findViewById(R.id.btn_rotate_inupleft); // rotate in up left
+        Button buttonRotateInUpRight = findViewById(R.id.btn_rotate_inupright); // rotate in up right
+        Button buttonRotateOutDownLeft = findViewById(R.id.btn_rotate_outdownleft); // rotate out down left
+        Button buttonRotateOutDownRight = findViewById(R.id.btn_rotate_outdownright); // rotate out down right
+        Button buttonRotateOutUpLeft = findViewById(R.id.btn_rotate_outupleft); // rotate out up left
+        Button buttonRotateOutUpRight = findViewById(R.id.btn_rotate_outupright); // rotate out up right
 
-        Button buttonRotateIn = findViewById(R.id.btn_rotate_in);
-        Button buttonRotateOut = findViewById(R.id.btn_rotate_out);
+        Button buttonRotateIn = findViewById(R.id.btn_rotate_in); // rotate in
+        Button buttonRotateOut = findViewById(R.id.btn_rotate_out); // rotate out
 
-        Button buttonSlideInDown = findViewById(R.id.btn_slide_indown);
-        Button buttonSlideInLeft = findViewById(R.id.btn_slide_inleft);
-        Button buttonSlideInRight = findViewById(R.id.btn_slide_inright);
-        Button buttonSlideInUp = findViewById(R.id.btn_slide_inup);
-        Button buttonSlideOutDown = findViewById(R.id.btn_slide_outdown);
-        Button buttonSlideOutLeft = findViewById(R.id.btn_slide_outleft);
-        Button buttonSlideOutRight = findViewById(R.id.btn_slide_outright);
-        Button buttonSlideOutUp = findViewById(R.id.btn_slide_outup);
+        Button buttonSlideInDown = findViewById(R.id.btn_slide_indown); // slide in down
+        Button buttonSlideInLeft = findViewById(R.id.btn_slide_inleft); // slide in left
+        Button buttonSlideInRight = findViewById(R.id.btn_slide_inright); // slide in right
+        Button buttonSlideInUp = findViewById(R.id.btn_slide_inup); // slide in up
+        Button buttonSlideOutDown = findViewById(R.id.btn_slide_outdown); // slide out down
+        Button buttonSlideOutLeft = findViewById(R.id.btn_slide_outleft); // slide out left
+        Button buttonSlideOutRight = findViewById(R.id.btn_slide_outright); // slide out right
+        Button buttonSlideOutUp = findViewById(R.id.btn_slide_outup); // slide out up
 
-        Button buttonZoomIn = findViewById(R.id.btn_zoom_in);
-        Button buttonZoomInDown = findViewById(R.id.btn_zoom_indown);
-        Button buttonZoomInLeft = findViewById(R.id.btn_zoom_inleft);
-        Button buttonZoomInRight = findViewById(R.id.btn_zoom_inright);
-        Button buttonZoomInUp = findViewById(R.id.btn_zoom_inup);
-        Button buttonZoomOut = findViewById(R.id.btn_zoom_out);
-        Button buttonZoomOutDown = findViewById(R.id.btn_zoom_outdown);
-        Button buttonZoomOutLeft = findViewById(R.id.btn_zoom_outleft);
-        Button buttonZoomOutRight = findViewById(R.id.btn_zoom_outright);
-        Button buttonZoomOutUp = findViewById(R.id.btn_zoom_outup);
+        Button buttonZoomIn = findViewById(R.id.btn_zoom_in); // zoom in
+        Button buttonZoomInDown = findViewById(R.id.btn_zoom_indown); // zoom in down
+        Button buttonZoomInLeft = findViewById(R.id.btn_zoom_inleft); // zoom in left
+        Button buttonZoomInRight = findViewById(R.id.btn_zoom_inright); // error
+        Button buttonZoomInUp = findViewById(R.id.btn_zoom_inup); // zoom in up
+        Button buttonZoomOut = findViewById(R.id.btn_zoom_out); /// zoom out
+        Button buttonZoomOutDown = findViewById(R.id.btn_zoom_outdown); // zoom out down
+        Button buttonZoomOutLeft = findViewById(R.id.btn_zoom_outleft); // zoom out left
+        Button buttonZoomOutRight = findViewById(R.id.btn_zoom_outright); // zoom out right
+        Button buttonZoomOutUp = findViewById(R.id.btn_zoom_outup); // zoom out up
 
         imageView = findViewById(R.id.iv_image);
 
