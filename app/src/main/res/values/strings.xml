@@ -1,3 +1,12 @@
 <resources>
-    <string name="app_name">app4</string>
+    <string name="app_name">Android View Animations Java</string>
+
+    <string name="simple_imageview">Simple Image View</string>
+    <string name="button_attention">Attention</string>
+    <string name="button_bounce">Bounce</string>
+    <string name="button_flash">Flash</string>
+    <string name="button_pulse">Pulse</string>
+    <string name="button_ruberband">Ruberband</string>
+    <string name="button_shake">Shake</string>
+    <string name="button_standup">Standup</string>
 </resources>
