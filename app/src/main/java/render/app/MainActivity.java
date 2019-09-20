@@ -4,6 +4,7 @@ import androidx.appcompat.app.AppCompatActivity;
 import android.os.Bundle;
 
 import render.animations.Attention;
+import render.animations.Bounce;
 import render.animations.Render;
 import android.view.View;
 import android.widget.Button;
@@ -27,6 +28,11 @@ public class MainActivity extends AppCompatActivity {
         Button buttonAttentionWave = findViewById(R.id.btn_attention_wave);
         Button buttonAttentionWobble = findViewById(R.id.btn_attention_wobble);
 
+        Button buttonBounceInLeft = findViewById(R.id.btn_bounce_inleft);
+        Button buttonBounceInRight = findViewById(R.id.btn_bounce_inright);
+        Button buttonBounceInUp = findViewById(R.id.button_bounce_inup);
+        Button buttonBounceInDown = findViewById(R.id.btn_bounce_indown);
+        Button buttonBounceIn = findViewById(R.id.btn_bounce_in);
 
         final ImageView imageView = findViewById(R.id.iv_image);
 
@@ -104,6 +110,40 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
+        buttonBounceInLeft.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View v) {
+                render.setAnimation(Bounce.InLeft(imageView));
+                render.start();
+            }
+        });
+
+        buttonBounceInRight.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View v) {
+                render.setAnimation(Bounce.InRight(imageView));
+                render.start();
+            }
+        });
+
+        buttonBounceInUp.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View v) {
+                render.setAnimation(Bounce.InUp(imageView));
+                render.start();
+            }
+        });
+
+        buttonBounceInDown.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View v) {
+                render.setAnimation(Bounce.InDown(imageView));
+                render.start();
+            }
+        });
+
+        buttonBounceIn.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View v) {
+                render.setAnimation(Bounce.In(imageView));
+                render.start();
+            }
+        });
 
     }
 }
