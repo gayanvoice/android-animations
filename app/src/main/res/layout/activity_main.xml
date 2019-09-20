@@ -188,6 +188,72 @@
                     android:textAllCaps="true"
                     android:textStyle="bold" />
 
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <Button
+                        android:id="@+id/btn_bounce_inleft"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:textSize="12sp"
+                        style="@style/Widget.AppCompat.Button.Borderless"
+                        android:text="@string/button_inleft" />
+
+                    <Button
+                        android:id="@+id/btn_attention_inright"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:textSize="12sp"
+                        style="@style/Widget.AppCompat.Button.Borderless"
+                        android:text="@string/button_inright" />
+
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <Button
+                        android:id="@+id/button_bounce_inup"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:textSize="12sp"
+                        style="@style/Widget.AppCompat.Button.Borderless"
+                        android:text="@string/button_inup" />
+
+                    <Button
+                        android:id="@+id/btn_bounce_indown"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:textSize="12sp"
+                        style="@style/Widget.AppCompat.Button.Borderless"
+                        android:text="@string/button_indown" />
+
+
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <Button
+                        android:id="@+id/btn_bounce_in"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:textSize="12sp"
+                        style="@style/Widget.AppCompat.Button.Borderless"
+                        android:text="@string/button_in" />
+
+                </LinearLayout>
+
+
 
             </LinearLayout>
         </ScrollView>

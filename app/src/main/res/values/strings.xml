@@ -20,4 +20,11 @@
     <string name="button_tada">Tada</string>
     <string name="button_wave">Wave</string>
     <string name="button_wobble">Wobble</string>
+
+    <string name="button_in">In</string>
+    <string name="button_inleft">In Left</string>
+    <string name="button_inright">In Right</string>
+    <string name="button_inup">In Up</string>
+    <string name="button_indown">In Down</string>
+
 </resources>
