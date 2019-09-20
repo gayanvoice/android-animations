@@ -4,13 +4,10 @@ import androidx.appcompat.app.AppCompatActivity;
 import android.os.Bundle;
 
 import render.animations.Attention;
-import render.animations.Bounce;
 import render.animations.Render;
 import android.view.View;
 import android.widget.Button;
 import android.widget.ImageView;
-import android.widget.TextView;
-
 public class MainActivity extends AppCompatActivity {
     Render render;
 
@@ -25,6 +22,11 @@ public class MainActivity extends AppCompatActivity {
         Button buttonAttentionRuberband = findViewById(R.id.btn_attention_ruberband);
         Button buttonAttentionShake = findViewById(R.id.btn_attention_shake);
         Button buttonAttentionStandup = findViewById(R.id.btn_attention_stand_up);
+        Button buttonAttentionSwing = findViewById(R.id.btn_attention_swing);
+        Button buttonAttentionTada = findViewById(R.id.btn_attention_tada);
+        Button buttonAttentionWave = findViewById(R.id.btn_attention_wave);
+        Button buttonAttentionWobble = findViewById(R.id.btn_attention_wobble);
+
 
         final ImageView imageView = findViewById(R.id.iv_image);
 
@@ -74,6 +76,33 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
+        buttonAttentionSwing.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View v) {
+                render.setAnimation(Attention.Swing(imageView));
+                render.start();
+            }
+        });
+
+        buttonAttentionTada.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View v) {
+                render.setAnimation(Attention.Tada(imageView));
+                render.start();
+            }
+        });
+
+        buttonAttentionWave.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View v) {
+                render.setAnimation(Attention.Wave(imageView));
+                render.start();
+            }
+        });
+
+        buttonAttentionWobble.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View v) {
+                render.setAnimation(Attention.Wobble(imageView));
+                render.start();
+            }
+        });
 
 
     }

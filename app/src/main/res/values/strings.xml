@@ -1,12 +1,23 @@
 <resources>
     <string name="app_name">Android View Animations Java</string>
-
     <string name="simple_imageview">Simple Image View</string>
-    <string name="button_attention">Attention</string>
+
+    <string name="text_attention">Attention</string>
+    <string name="text_bounce">Bounce</string>
+    <string name="text_fade">Fade</string>
+    <string name="text_Flip">Flip</string>
+    <string name="text_Rotate">Rotate</string>
+    <string name="text_Slide">Slide</string>
+    <string name="text_zoom">Zoom</string>
+
     <string name="button_bounce">Bounce</string>
     <string name="button_flash">Flash</string>
     <string name="button_pulse">Pulse</string>
     <string name="button_ruberband">Ruberband</string>
     <string name="button_shake">Shake</string>
     <string name="button_standup">Standup</string>
+    <string name="button_swing">Swing</string>
+    <string name="button_tada">Tada</string>
+    <string name="button_wave">Wave</string>
+    <string name="button_wobble">Wobble</string>
 </resources>

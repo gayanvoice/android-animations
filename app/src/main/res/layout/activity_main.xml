@@ -29,8 +29,8 @@
                 android:layout_width="100dp"
                 android:layout_height="100dp"
                 android:contentDescription="@string/simple_imageview"
-                android:layout_marginTop="20dp"
-                android:layout_marginBottom="20dp"
+                android:layout_marginTop="40dp"
+                android:layout_marginBottom="40dp"
                 android:layout_weight="1"
                 app:srcCompat="@color/colorImage" />
 
@@ -48,63 +48,150 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:orientation="vertical"
+                android:background="#F1F1F1"
+                android:paddingTop="20dp"
+                android:paddingBottom="20dp"
                 android:paddingStart="20dp"
                 android:paddingLeft="20dp"
                 android:paddingEnd="20dp"
                 android:paddingRight="20dp">
 
-
                 <TextView
+                    android:id="@+id/textView5"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:textAllCaps="true"
+                    android:layout_marginBottom="10dp"
+                    android:text="@string/text_attention"
                     android:textAlignment="center"
-                    android:text="@string/button_attention" />
+                    android:textAllCaps="true"
+                    android:textStyle="bold" />
 
-                <Button
-                    android:id="@+id/btn_attention_bounce"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    style="@style/Widget.AppCompat.Button.Colored"
-                    android:text="@string/button_bounce" />
+                <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
 
-                <Button
-                    android:id="@+id/btn_attention_flash"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    style="@style/Widget.AppCompat.Button.Colored"
-                    android:text="@string/button_flash" />
+                        <Button
+                            android:id="@+id/btn_attention_bounce"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:textSize="12sp"
+                            style="@style/Widget.AppCompat.Button.Borderless"
+                            android:text="@string/button_bounce" />
 
-                <Button
-                    android:id="@+id/btn_attention_pulse"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    style="@style/Widget.AppCompat.Button.Colored"
-                    android:text="@string/button_pulse" />
+                        <Button
+                            android:id="@+id/btn_attention_flash"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:textSize="12sp"
+                            style="@style/Widget.AppCompat.Button.Borderless"
+                            android:text="@string/button_flash" />
+
+                        <Button
+                            android:id="@+id/btn_attention_pulse"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:textSize="12sp"
+                            style="@style/Widget.AppCompat.Button.Borderless"
+                            android:text="@string/button_pulse" />
+
+                    </LinearLayout>
+                <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
 
                 <Button
                     android:id="@+id/btn_attention_ruberband"
-                    android:layout_width="match_parent"
+                    android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    style="@style/Widget.AppCompat.Button.Colored"
+                    android:layout_weight="1"
+                    android:textSize="12sp"
+                    style="@style/Widget.AppCompat.Button.Borderless"
                     android:text="@string/button_ruberband" />
-
                 <Button
                     android:id="@+id/btn_attention_shake"
-                    android:layout_width="match_parent"
+                    android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    style="@style/Widget.AppCompat.Button.Colored"
+                    android:layout_weight="1"
+                    android:textSize="12sp"
+                    style="@style/Widget.AppCompat.Button.Borderless"
                     android:text="@string/button_shake" />
 
                 <Button
                     android:id="@+id/btn_attention_stand_up"
-                    android:layout_width="match_parent"
+                    android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    style="@style/Widget.AppCompat.Button.Colored"
+                    android:layout_weight="1"
+                    android:textSize="12sp"
+                    style="@style/Widget.AppCompat.Button.Borderless"
                     android:text="@string/button_standup" />
 
             </LinearLayout>
+                <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/btn_attention_swing"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:textSize="12sp"
+                    style="@style/Widget.AppCompat.Button.Borderless"
+                    android:text="@string/button_swing" />
+
+                <Button
+                    android:id="@+id/btn_attention_tada"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:textSize="12sp"
+                    style="@style/Widget.AppCompat.Button.Borderless"
+                    android:text="@string/button_tada" />
+
+                <Button
+                    android:id="@+id/btn_attention_wave"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:textSize="12sp"
+                    style="@style/Widget.AppCompat.Button.Borderless"
+                    android:text="@string/button_wave" />
+
+            </LinearLayout>
+                <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/btn_attention_wobble"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:textSize="12sp"
+                    style="@style/Widget.AppCompat.Button.Borderless"
+                    android:text="@string/button_wobble" />
+            </LinearLayout>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="10dp"
+                    android:text="@string/text_bounce"
+                    android:textAlignment="center"
+                    android:textAllCaps="true"
+                    android:textStyle="bold" />
+
+
+            </LinearLayout>
         </ScrollView>
+
 
     </LinearLayout>
 
