@@ -47,8 +47,8 @@ public class MainActivity extends AppCompatActivity {
         Button buttonFadeInRight = findViewById(R.id.btn_fade_inright); // fade in right
         Button buttonFadeInLeft = findViewById(R.id.btn_fade_inleft); // fade left
 
-        Button buttonFadeOutUp = findViewById(R.id.btn_fade_outup); // error
-        Button buttonFadeOutDown = findViewById(R.id.btn_fade_outdown); // error
+        Button buttonFadeOutUp = findViewById(R.id.btn_fade_outup); // fade out up
+        Button buttonFadeOutDown = findViewById(R.id.btn_fade_outdown); // fade out down
         Button buttonFadeOutRight = findViewById(R.id.btn_fade_outright); // fade out right
         Button buttonFadeOutLeft = findViewById(R.id.btn_fade_outleft); // fade out left
 

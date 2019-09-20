@@ -45,8 +45,8 @@ public class Zoom {
 
     public static AnimatorSet InRight(View view){
         AnimatorSet animatorSet = new AnimatorSet();
-        float width = - view.getWidth();
-        float right = - view.getPaddingRight();
+        float width = view.getWidth();
+        float right = view.getPaddingRight();
 
         ObjectAnimator object1 = ObjectAnimator.ofFloat(view,    "scaleX", 0.1f, 0.475f, 1);
         ObjectAnimator object2 = ObjectAnimator.ofFloat(view,    "scaleY", 0.1f, 0.475f, 1);
