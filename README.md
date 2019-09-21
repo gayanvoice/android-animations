@@ -3,7 +3,41 @@
 
 ![Android View Animations in Java](https://gayankuruppu.github.io/android-view-animations-java/static/media/0-android-view-animations-java.57f29c80.gif "Android View Animations in Java")
 
-### Animations
+# Usage
+## Gradle
+Add it in your root build.gradle at the end of repositories:
+```java
+allprojects {
+  repositories {
+		...
+ 		maven { url 'https://jitpack.io' }
+	}
+}
+```
+## Add the dependency
+```java
+dependencies {
+  	implementation 'com.github.gayankuruppu:android-view-animations-java:1.0.1'
+}
+```
+## Import render animations
+```java
+import render.animations.*;
+```
+## Start animation
+```java
+// Declare TextView
+TextView AppleText = findViewById(R.id.TextView);
+
+// Create Render Class
+Render render = new Render(MainActivity.this);
+
+// Set Animation
+render.setAnimation(Attention.Wobble(AppleText));
+render.start();
+```
+
+## Animations
 
 To animate the view, add the class name and specific animation method name`setAnimation` to an view. You can include the method `setDuration` to specify duration of animation. Default value for `duration` is `1000 Milliseconds`. Finally you need to add one of the following classes to the view:
 
@@ -34,36 +68,3 @@ To animate the view, add the class name and specific animation method name`setAn
 | `OutLeft`          |<img width="200" alt="portfolio_view" src="https://gayankuruppu.github.io/android-view-animations-java/static/media/20-fade-out-left.7f1583e0.gif">| `OutRight`              |<img width="200" alt="portfolio_view" src="https://gayankuruppu.github.io/android-view-animations-java/static/media/21-fade-out-right.ff6adf09.gif">|
 | `FadeIn`          |<img width="200" alt="portfolio_view" src="https://gayankuruppu.github.io/android-view-animations-java/static/media/23-fade-in.532822b1.gif">| `FadeOut`              |<img width="200" alt="portfolio_view" src="https://gayankuruppu.github.io/android-view-animations-java/static/media/24-fade-out.a3ee0d3a.gif">|
 
-# Usage
-## Gradle
-Add it in your root build.gradle at the end of repositories:
-```java
-allprojects {
-  repositories {
-		...
- 		maven { url 'https://jitpack.io' }
-	}
-}
-```
-## Add the dependency
-```java
-dependencies {
-  	implementation 'com.github.gayankuruppu:android-view-animations-java:1.0.1'
-}
-```
-## Import render animations
-```java
-import render.animations.*;
-```
-## Start animation
-```java
-// Declare TextView
-TextView TextView = findViewById(R.id.TextView);
-
-// Create Render Class
-Render render = new Render(MainActivity.this);
-
-// Set Animation
-render.setAnimation(Attention.Wobble(TextView));
-render.start();
-```
