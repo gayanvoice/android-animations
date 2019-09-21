@@ -5,7 +5,9 @@
 
 # Usage
 ## Gradle
+
 Add it in your root build.gradle at the end of repositories:
+
 ```java
 allprojects {
   repositories {
@@ -14,17 +16,23 @@ allprojects {
 	}
 }
 ```
+
 ## Add the dependency
+
 ```java
 dependencies {
   	implementation 'com.github.gayankuruppu:android-view-animations-java:1.0.1'
 }
 ```
+
 ## Import render animations
+
 ```java
 import render.animations.*;
 ```
+
 ## Start animation
+
 ```java
 // Declare TextView
 TextView AppleText = findViewById(R.id.TextView);
@@ -46,7 +54,7 @@ To animate the view, add the class name and specific animation method name`setAn
 | `Attention` | `Bounce`    | `Fade`      | `Flip   `   | `Rotate`    | `Slide`     | `Zoom`      |
 
 
-| `Attention`<div style='width:200'>|                    |<div style='width:200'>|                    |
+| `Attention`<div width='200px'>|                    |<div style='width:200px'>|                    |
 | ----------------- | ------------------ | ------------------ | ------------------ |
 | `Bounce`|<img width="200" alt="portfolio_view" src="https://gayankuruppu.github.io/android-view-animations-java/static/media/1-attention-bounce.c6335f3d.gif">| `Flash`              |<img width="200" alt="portfolio_view" src="https://gayankuruppu.github.io/android-view-animations-java/static/media/2-attention-flash.27fb56e5.gif">|
 | `Pulse`           |<img width="200" alt="portfolio_view" src="https://gayankuruppu.github.io/android-view-animations-java/static/media/3-attention-pulse.ee6d1fae.gif">| `Ruberband`              |<img width="200" alt="portfolio_view" src="https://gayankuruppu.github.io/android-view-animations-java/static/media/4-attention-ruberband.a701fa5b.gif">|
