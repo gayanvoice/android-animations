@@ -56,7 +56,7 @@ To animate the view, add the class name and specific animation method name`setAn
 | `Attention` | `Bounce`    | `Fade`      | `Flip   `   | `Rotate`    | `Slide`     | `Zoom`      |
 
 
-| `Attention`<img width=200/>|           |  <img width=200/>  |                    |
+| `Attention`<img width=100/>|           |  <img width=100/>  |                    |
 | ----------------- | ------------------ | ------------------ | ------------------ |
 | `Bounce`|<img width="200" alt="portfolio_view" src="https://gayankuruppu.github.io/android-view-animations-java/static/media/1-attention-bounce.c6335f3d.gif">| `Flash`              |<img width="200" alt="portfolio_view" src="https://gayankuruppu.github.io/android-view-animations-java/static/media/2-attention-flash.27fb56e5.gif">|
 | `Pulse`           |<img width="200" alt="portfolio_view" src="https://gayankuruppu.github.io/android-view-animations-java/static/media/3-attention-pulse.ee6d1fae.gif">| `Ruberband`              |<img width="200" alt="portfolio_view" src="https://gayankuruppu.github.io/android-view-animations-java/static/media/4-attention-ruberband.a701fa5b.gif">|
