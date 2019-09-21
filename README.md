@@ -47,7 +47,7 @@ dependencies {
 <dependency>
 	<groupId>com.github.gayankuruppu</groupId>
 	<artifactId>android-view-animations-java</artifactId>
-	<version>Tag</version>
+	<version>1.0.2</version>
 </dependency>
 ```
 ## Usage
@@ -126,7 +126,6 @@ To animate the view, add the class name and specific animation method name`setAn
 
 ### Slide
 
-| `Slide`          |                    |                    |                    |
 | ----------------- | ------------------ | ------------------ | ------------------ |
 | `InDown`          |<img width="200" alt="portfolio_view" src="https://gayankuruppu.github.io/android-view-animations-java/static/media/40-slide-in-down.efa18709.gif">| `InUp`              |<img width="200" alt="portfolio_view" src="https://gayankuruppu.github.io/android-view-animations-java/static/media/43-slide-in-up.0f918432.gif">|
 | `InLeft`          |<img width="200" alt="portfolio_view" src="https://gayankuruppu.github.io/android-view-animations-java/static/media/41-slide-in-left.da5a9127.gif">| `InRight`              |<img width="200" alt="portfolio_view" src="https://gayankuruppu.github.io/android-view-animations-java/static/media/42-slide-in-right.f0e33c31.gif">|
@@ -135,7 +134,6 @@ To animate the view, add the class name and specific animation method name`setAn
 
 ### Zoom
 
-| `Zoom`            |                    |                    |                    |
 | ----------------- | ------------------ | ------------------ | ------------------ |
 | `InDown`          |<img width="200" alt="portfolio_view" src="https://gayankuruppu.github.io/android-view-animations-java/static/media/48-zoom-in-down.6e41a799.gif">| `InUp`              |<img width="200" alt="portfolio_view" src="https://gayankuruppu.github.io/android-view-animations-java/static/media/51-zoom-in-up.40e3a26e.gif">|
 | `InLeft`          |<img width="200" alt="portfolio_view" src="https://gayankuruppu.github.io/android-view-animations-java/static/media/49-zoom-in-left.82604bb4.gif">| `InRight`              |<img width="200" alt="portfolio_view" src="https://gayankuruppu.github.io/android-view-animations-java/static/media/50-zoom-in-right.a419ab92.gif">|
