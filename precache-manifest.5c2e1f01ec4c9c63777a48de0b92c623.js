@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "3589eff4f37e34dcae3e9c0642ddaa02",
+    "revision": "7af40fbd4f2af3016d71a16ec4f266e8",
     "url": "/android-view-animations-java/index.html"
   },
   {
-    "revision": "9919782555783f78409a",
+    "revision": "d26bd66622751dfd036c",
     "url": "/android-view-animations-java/static/css/main.34de6062.chunk.css"
   },
   {
@@ -12,8 +12,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/android-view-animations-java/static/js/2.5a3332c2.chunk.js"
   },
   {
-    "revision": "9919782555783f78409a",
-    "url": "/android-view-animations-java/static/js/main.9ad328e8.chunk.js"
+    "revision": "d26bd66622751dfd036c",
+    "url": "/android-view-animations-java/static/js/main.0939dade.chunk.js"
   },
   {
     "revision": "8c9b230d44c03fa5f494",
