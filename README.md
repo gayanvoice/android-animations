@@ -54,7 +54,7 @@ To animate the view, add the class name and specific animation method name`setAn
 | `Attention` | `Bounce`    | `Fade`      | `Flip   `   | `Rotate`    | `Slide`     | `Zoom`      |
 
 
-| `Attention`<div width='200px'>|                    |<div style='width:200px'>|                    |
+| `Attention`       |                    |		      |                    |
 | ----------------- | ------------------ | ------------------ | ------------------ |
 | `Bounce`|<img width="200" alt="portfolio_view" src="https://gayankuruppu.github.io/android-view-animations-java/static/media/1-attention-bounce.c6335f3d.gif">| `Flash`              |<img width="200" alt="portfolio_view" src="https://gayankuruppu.github.io/android-view-animations-java/static/media/2-attention-flash.27fb56e5.gif">|
 | `Pulse`           |<img width="200" alt="portfolio_view" src="https://gayankuruppu.github.io/android-view-animations-java/static/media/3-attention-pulse.ee6d1fae.gif">| `Ruberband`              |<img width="200" alt="portfolio_view" src="https://gayankuruppu.github.io/android-view-animations-java/static/media/4-attention-ruberband.a701fa5b.gif">|
@@ -68,22 +68,22 @@ To animate the view, add the class name and specific animation method name`setAn
 | `InLeft`           |<img width="200" alt="portfolio_view" src="https://gayankuruppu.github.io/android-view-animations-java/static/media/11-bounce-in-left.ebc9bc0f.gif">| `InRight`              |<img width="200" alt="portfolio_view" src="https://gayankuruppu.github.io/android-view-animations-java/static/media/12-bounce-in-right.a66d3b31.gif">|
 | `In`           |<img width="200" alt="portfolio_view" src="https://gayankuruppu.github.io/android-view-animations-java/static/media/14-bounce-in.2ef584a6.gif">	|		|		|
 
-| `Bounce`          |                    |                    |                    |
+| `Fade`            |                    |                    |                    |
 | ----------------- | ------------------ | ------------------ | ------------------ |
 | `InDown`          |<img width="200" alt="portfolio_view" src="https://gayankuruppu.github.io/android-view-animations-java/static/media/18-fade-in-down.24e645e6.gif">| `InUp`              |<img width="200" alt="portfolio_view" src="https://gayankuruppu.github.io/android-view-animations-java/static/media/19-fade-in-up.a2b79fa7.gif">|
 | `InLeft`          |<img width="200" alt="portfolio_view" src="https://gayankuruppu.github.io/android-view-animations-java/static/media/16-fade-in-left.6e93da17.gif">| `InRight`              |<img width="200" alt="portfolio_view" src="https://gayankuruppu.github.io/android-view-animations-java/static/media/17-fade-in-right.59345f8c.gif">|
 | `OutDown`          |<img width="200" alt="portfolio_view" src="https://gayankuruppu.github.io/android-view-animations-java/static/media/22-fade-out-down.4f4ebc27.gif">| `OutUp`              |<img width="200" alt="portfolio_view" src="https://gayankuruppu.github.io/android-view-animations-java/static/media/25-fade-out-up.75f60e2d.gif">|
 | `OutLeft`          |<img width="200" alt="portfolio_view" src="https://gayankuruppu.github.io/android-view-animations-java/static/media/20-fade-out-left.7f1583e0.gif">| `OutRight`              |<img width="200" alt="portfolio_view" src="https://gayankuruppu.github.io/android-view-animations-java/static/media/21-fade-out-right.ff6adf09.gif">|
-| `FadeIn`          |<img width="200" alt="portfolio_view" src="https://gayankuruppu.github.io/android-view-animations-java/static/media/23-fade-in.532822b1.gif">| `FadeOut`              |<img width="200" alt="portfolio_view" src="https://gayankuruppu.github.io/android-view-animations-java/static/media/24-fade-out.a3ee0d3a.gif">|
+| `In`               |<img width="200" alt="portfolio_view" src="https://gayankuruppu.github.io/android-view-animations-java/static/media/23-fade-in.532822b1.gif">| `Out`              |<img width="200" alt="portfolio_view" src="https://gayankuruppu.github.io/android-view-animations-java/static/media/24-fade-out.a3ee0d3a.gif">|
 
 | `Flip`            |                    |                    |                    |
 | ----------------- | ------------------ | ------------------ | ------------------ |
 | `InX`          |<img width="200" alt="portfolio_view" src="https://gayankuruppu.github.io/android-view-animations-java/static/media/26-flip-in-x.1de9f264.gif">| `InY`              |<img width="200" alt="portfolio_view" src="https://gayankuruppu.github.io/android-view-animations-java/static/media/27-flip-in-y.8f45c5e1.gif">|
 | `OutX`          |<img width="200" alt="portfolio_view" src="https://gayankuruppu.github.io/android-view-animations-java/static/media/28-flip-out-x.09be8ac3.gif">| `OutY`              |<img width="200" alt="portfolio_view" src="https://gayankuruppu.github.io/android-view-animations-java/static/media/29-flip-out-y.f5c532a8.gif">|
 
-| `Flip`            |                    |                    |                    |
+| `Rotate`          |                    |                    |                    |
 | ----------------- | ------------------ | ------------------ | ------------------ |
-| `InX`          |<img width="200" alt="portfolio_view" src="https://gayankuruppu.github.io/android-view-animations-java/static/media/26-flip-in-x.1de9f264.gif">| `InY`              |<img width="200" alt="portfolio_view" src="https://gayankuruppu.github.io/android-view-animations-java/static/media/27-flip-in-y.8f45c5e1.gif">|
+| `InDownLeft`          |<img width="200" alt="portfolio_view" src="">| `InDownRight`              |<img width="200" alt="portfolio_view" src="">|
 
 
 
