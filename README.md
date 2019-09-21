@@ -3,8 +3,8 @@
 
 <img width="360" alt="Android View Animations in Java" src="https://gayankuruppu.github.io/android-view-animations-java/static/media/1-android-view-animations-java.f0c24b80.gif"> <img width="360" alt="Android View Animations in Java" src="https://gayankuruppu.github.io/android-view-animations-java/static/media/0-android-view-animations-java.57f29c80.gif">
 
-# Usage
-## Gradle
+## Usage
+### Gradle
 
 Add it in your root build.gradle at the end of repositories:
 
@@ -17,7 +17,7 @@ allprojects {
 }
 ```
 
-## Add the dependency
+### Add the dependency
 
 ```java
 dependencies {
@@ -25,13 +25,13 @@ dependencies {
 }
 ```
 
-## Import render animations
+### Import render animations
 
 ```java
 import render.animations.*;
 ```
 
-## Start animation
+### Start animation
 
 ```java
 // Declare TextView
@@ -45,7 +45,7 @@ render.setAnimation(Attention.Wobble(AppleText));
 render.start();
 ```
 
-### Animations
+## Animations
 
 To animate the view, add the class name and specific animation method name`setAnimation` to an view. You can include the method `setDuration` to specify duration of animation. Default value for `duration` is `1000 Milliseconds`. Finally you need to add one of the following classes to the view:
 
