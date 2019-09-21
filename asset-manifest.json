@@ -1,16 +1,25 @@
 {
   "files": {
     "main.css": "/android-view-animations-java/static/css/main.34de6062.chunk.css",
-    "main.js": "/android-view-animations-java/static/js/main.95c51a63.chunk.js",
-    "main.js.map": "/android-view-animations-java/static/js/main.95c51a63.chunk.js.map",
+    "main.js": "/android-view-animations-java/static/js/main.586fc907.chunk.js",
+    "main.js.map": "/android-view-animations-java/static/js/main.586fc907.chunk.js.map",
     "runtime-main.js": "/android-view-animations-java/static/js/runtime-main.95c7edbd.js",
     "runtime-main.js.map": "/android-view-animations-java/static/js/runtime-main.95c7edbd.js.map",
-    "static/js/2.6fb05c39.chunk.js": "/android-view-animations-java/static/js/2.6fb05c39.chunk.js",
-    "static/js/2.6fb05c39.chunk.js.map": "/android-view-animations-java/static/js/2.6fb05c39.chunk.js.map",
+    "static/js/2.c8bd5d7d.chunk.js": "/android-view-animations-java/static/js/2.c8bd5d7d.chunk.js",
+    "static/js/2.c8bd5d7d.chunk.js.map": "/android-view-animations-java/static/js/2.c8bd5d7d.chunk.js.map",
     "index.html": "/android-view-animations-java/index.html",
-    "precache-manifest.ef90efe8caf4b26e59b5490e789bb839.js": "/android-view-animations-java/precache-manifest.ef90efe8caf4b26e59b5490e789bb839.js",
+    "precache-manifest.5f8ea82dd1250c4bc711b242a2744d3e.js": "/android-view-animations-java/precache-manifest.5f8ea82dd1250c4bc711b242a2744d3e.js",
     "service-worker.js": "/android-view-animations-java/service-worker.js",
     "static/css/main.34de6062.chunk.css.map": "/android-view-animations-java/static/css/main.34de6062.chunk.css.map",
-    "static/media/1-attention-bounce.gif": "/android-view-animations-java/static/media/1-attention-bounce.c6335f3d.gif"
+    "static/media/1-attention-bounce.gif": "/android-view-animations-java/static/media/1-attention-bounce.c6335f3d.gif",
+    "static/media/10-attention-wobble.gif": "/android-view-animations-java/static/media/10-attention-wobble.42ac8c56.gif",
+    "static/media/2-attention-flash.gif": "/android-view-animations-java/static/media/2-attention-flash.27fb56e5.gif",
+    "static/media/3-attention-pulse.gif": "/android-view-animations-java/static/media/3-attention-pulse.ee6d1fae.gif",
+    "static/media/4-attention-ruberband.gif": "/android-view-animations-java/static/media/4-attention-ruberband.a701fa5b.gif",
+    "static/media/5-attention-shake.gif": "/android-view-animations-java/static/media/5-attention-shake.62d9243a.gif",
+    "static/media/6-attention-standup.gif": "/android-view-animations-java/static/media/6-attention-standup.553e1945.gif",
+    "static/media/7-attention-swing.gif": "/android-view-animations-java/static/media/7-attention-swing.602dd7aa.gif",
+    "static/media/8-attention-tada.gif": "/android-view-animations-java/static/media/8-attention-tada.faa9f3c1.gif",
+    "static/media/9-attention-wave.gif": "/android-view-animations-java/static/media/9-attention-wave.9a37979d.gif"
   }
 }
