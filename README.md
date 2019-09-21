@@ -2,6 +2,9 @@
 [![Build Status](https://travis-ci.org/gayankuruppu/android-view-animations-java.svg?branch=master)](https://travis-ci.org/gayankuruppu/android-view-animations-java) [![](https://jitpack.io/v/gayankuruppu/android-view-animations-java.svg)](https://jitpack.io/#gayankuruppu/android-view-animations-java) [![API](https://img.shields.io/badge/API-14%2B-brightgreen.svg?style=flat)](https://android-arsenal.com/api?level=14) ![GitHub repo size](https://img.shields.io/github/repo-size/gayankuruppu/android-view-animations-java)
 
 Android animations for views such as Button, TextView, ImageView and etc. Just import the library and start coding ;)
+![test image size](https://gayankuruppu.github.io/android-view-animations-java/static/media/1-attention-bounce.c6335f3d.gif)
+
+![test image size](https://gayankuruppu.github.io/android-view-animations-java/static/media/1-attention-bounce.c6335f3d.gif){:height="50%" width="50%"}
 
 # Usage
 ## Gradle
