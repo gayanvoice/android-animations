@@ -91,6 +91,9 @@ To animate the view, add the class name and specific animation method name`setAn
 | `OutUpLeft`          |<img width="200" alt="portfolio_view" src="https://gayankuruppu.github.io/android-view-animations-java/static/media/39-rotate-up-left.de13c028.gif">| `OutUpRight`              |<img width="200" alt="portfolio_view" src="https://gayankuruppu.github.io/android-view-animations-java/static/media/36-rotate-out-up-right.ddb7df75.gif">|
 | `In`          |<img width="200" alt="portfolio_view" src="https://gayankuruppu.github.io/android-view-animations-java/static/media/37-rotate-in.08924c36.gif">| `Out`              |<img width="200" alt="portfolio_view" src="https://gayankuruppu.github.io/android-view-animations-java/static/media/38-rotate-out.b127d7a8.gif">|
 
-
-
-
+| `Rotate`          |                    |                    |                    |
+| ----------------- | ------------------ | ------------------ | ------------------ |
+| `InDown`          |<img width="200" alt="portfolio_view" src="https://gayankuruppu.github.io/android-view-animations-java/static/media/40-slide-in-down.efa18709.gif">| `InUp`              |<img width="200" alt="portfolio_view" src="https://gayankuruppu.github.io/android-view-animations-java/static/media/43-slide-in-up.0f918432.gif">|
+| `InLeft`          |<img width="200" alt="portfolio_view" src="https://gayankuruppu.github.io/android-view-animations-java/static/media/41-slide-in-left.da5a9127.gif">| `InRight`              |<img width="200" alt="portfolio_view" src="https://gayankuruppu.github.io/android-view-animations-java/static/media/42-slide-in-right.f0e33c31.gif">|
+| `OutDown`          |<img width="200" alt="portfolio_view" src="https://gayankuruppu.github.io/android-view-animations-java/static/media/44-slide-out-down.269616ff.gif">| `OutUp`              |<img width="200" alt="portfolio_view" src="https://gayankuruppu.github.io/android-view-animations-java/static/media/47-slide-out-up.7efa439e.gif">|
+| `OutLeft`          |<img width="200" alt="portfolio_view" src="https://gayankuruppu.github.io/android-view-animations-java/static/media/45-slide-out-left.4226eca7.gif">| `OutRight`              |<img width="200" alt="portfolio_view" src="https://gayankuruppu.github.io/android-view-animations-java/static/media/46-slide-out-right.f283b64b.gif">|
