@@ -5,11 +5,11 @@
 
 ## Get
 
-## Gradle
+### Gradle
 
-1. Add this to `build.gradle` of project dependency
+1. Add this to `build.gradle` of project gradle dependency
 
-```java
+```groovy
 allprojects {
 	repositories {
 		...
@@ -18,9 +18,9 @@ allprojects {
 }
 ```
 
-2. Add this to `build.gradle` of module dependency
+2. Add this to `build.gradle` of app gradle dependency
 
-```java
+```groovy
 dependencies {
 	implementation 'com.github.gayankuruppu:android-view-animations-java:1.0.2'
 }
@@ -30,7 +30,7 @@ dependencies {
 
 ## Maven
 
-1. Add this to `build.gradle` of project dependency
+1. Add this to `build.gradle` of project gradle dependency
 
 ```xml
 <repositories>
@@ -41,7 +41,7 @@ dependencies {
 </repositories>
 ```
 
-2. Add this to `build.gradle` of module dependency
+2. Add this to `build.gradle` of module gradle dependency
 
 ```xml
 <dependency>
