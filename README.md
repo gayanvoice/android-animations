@@ -10,7 +10,7 @@ Add it in your root build.gradle at the end of repositories:
 
 ```java
 allprojects {
-  repositories {
+	repositories {
 		...
  		maven { url 'https://jitpack.io' }
 	}
@@ -21,7 +21,7 @@ allprojects {
 
 ```java
 dependencies {
-  	implementation 'com.github.gayankuruppu:android-view-animations-java:1.0.2'
+	implementation 'com.github.gayankuruppu:android-view-animations-java:1.0.2'
 }
 ```
 
