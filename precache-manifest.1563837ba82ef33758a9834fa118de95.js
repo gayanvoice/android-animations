@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "fcbc940cc11fb4e21dd1379f7652f61f",
+    "revision": "3589eff4f37e34dcae3e9c0642ddaa02",
     "url": "/android-view-animations-java/index.html"
   },
   {
-    "revision": "c31268295825ff810e9a",
+    "revision": "9919782555783f78409a",
     "url": "/android-view-animations-java/static/css/main.34de6062.chunk.css"
   },
   {
@@ -12,8 +12,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/android-view-animations-java/static/js/2.5a3332c2.chunk.js"
   },
   {
-    "revision": "c31268295825ff810e9a",
-    "url": "/android-view-animations-java/static/js/main.71f447e4.chunk.js"
+    "revision": "9919782555783f78409a",
+    "url": "/android-view-animations-java/static/js/main.9ad328e8.chunk.js"
   },
   {
     "revision": "8c9b230d44c03fa5f494",
@@ -117,11 +117,11 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   },
   {
     "revision": "cdd124aa94f6ce5c3874d4ee446bd64d",
-    "url": "/android-view-animations-java/static/media/30-rotate-in-download-left.cdd124aa.gif"
+    "url": "/android-view-animations-java/static/media/30-rotate-in-down-left.cdd124aa.gif"
   },
   {
     "revision": "f0693f8b2bd59c2e9b6774b4823131c8",
-    "url": "/android-view-animations-java/static/media/31-rotate-in-download-right.f0693f8b.gif"
+    "url": "/android-view-animations-java/static/media/31-rotate-in-down-right.f0693f8b.gif"
   },
   {
     "revision": "f818146d4522f79a0620061326e6ca0c",
