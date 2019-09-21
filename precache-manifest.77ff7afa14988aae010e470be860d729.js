@@ -1,19 +1,19 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "7af40fbd4f2af3016d71a16ec4f266e8",
+    "revision": "f44c1e876d19a9f39e0b97793acea32a",
     "url": "/android-view-animations-java/index.html"
   },
   {
-    "revision": "d26bd66622751dfd036c",
+    "revision": "cef794373769bf924149",
     "url": "/android-view-animations-java/static/css/main.34de6062.chunk.css"
   },
   {
-    "revision": "83dd9f759b3161f2ac02",
-    "url": "/android-view-animations-java/static/js/2.5a3332c2.chunk.js"
+    "revision": "4462bd5da31a190d9c33",
+    "url": "/android-view-animations-java/static/js/2.1b10327b.chunk.js"
   },
   {
-    "revision": "d26bd66622751dfd036c",
-    "url": "/android-view-animations-java/static/js/main.0939dade.chunk.js"
+    "revision": "cef794373769bf924149",
+    "url": "/android-view-animations-java/static/js/main.afc61834.chunk.js"
   },
   {
     "revision": "8c9b230d44c03fa5f494",
@@ -22,6 +22,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "57f29c80f0b0751b7a607fe156d6286b",
     "url": "/android-view-animations-java/static/media/0-android-view-animations-java.57f29c80.gif"
+  },
+  {
+    "revision": "f0c24b801e4622769309c566fbab4d94",
+    "url": "/android-view-animations-java/static/media/1-android-view-animations-java.f0c24b80.gif"
   },
   {
     "revision": "c6335f3dadf9a8e43b823a57a084f6c6",
