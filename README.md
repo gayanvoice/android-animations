@@ -6,6 +6,18 @@ Android animations for views such as Button, TextView, ImageView and etc. Just i
 
 <img width="200" alt="portfolio_view" src="https://gayankuruppu.github.io/android-view-animations-java/static/media/1-attention-bounce.c6335f3d.gif">
 
+### Animations
+
+To animate the view, add the class name and specific animation method name`setAnimation` to an view. You can include the method `setDuration` to specify duration of animation. Default value for `duration` is `1000 Milliseconds`. Finally you need to add one of the following classes to the view:
+
+| Class Name        |                    |                     |                      |
+| ----------------- | ------------------ | ------------------- | -------------------- |
+| `bounce`          | `flash`                                  | `rubberBand`         |
+| ----------------- | ------------------ | ------------------- | -------------------- |
+| `bounce`          | `flash`            | `pulse`             | `rubberBand`         |
+
+
+
 # Usage
 ## Gradle
 Add it in your root build.gradle at the end of repositories:
