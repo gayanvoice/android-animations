@@ -26,9 +26,9 @@ dependencies {
 }
 ```
 
-# Or
+### Or
 
-## Maven
+### Maven
 
 1. Add this to `build.gradle` of project gradle dependency
 
