@@ -64,7 +64,7 @@ To animate the view, add the class name and specific animation method name`setAn
 | `Swing`           |<img width="200" alt="portfolio_view" src="https://gayankuruppu.github.io/android-view-animations-java/static/media/7-attention-swing.602dd7aa.gif">| `Tada`              |<img width="200" alt="portfolio_view" src="https://gayankuruppu.github.io/android-view-animations-java/static/media/8-attention-tada.faa9f3c1.gif">|
 | `Wave`            |<img width="200" alt="portfolio_view" src="https://gayankuruppu.github.io/android-view-animations-java/static/media/9-attention-wave.9a37979d.gif">| `Wobble`              |<img width="200" alt="portfolio_view" src="https://gayankuruppu.github.io/android-view-animations-java/static/media/10-attention-wobble.42ac8c56.gif">|
 
-| `Bounce`          |                    |                    |                    |
+| `Bounce`<img width=100/>|              |  <img width=100/>  |                    |
 | ----------------- | ------------------ | ------------------ | ------------------ |
 | `InDown`          |<img width="200" alt="portfolio_view" src="https://gayankuruppu.github.io/android-view-animations-java/static/media/15-bounce-in-down.6aad1cbd.gif">| `InUp`              |<img width="200" alt="portfolio_view" src="https://gayankuruppu.github.io/android-view-animations-java/static/media/13-bounce-in-up.7a1d7c17.gif">|
 | `InLeft`           |<img width="200" alt="portfolio_view" src="https://gayankuruppu.github.io/android-view-animations-java/static/media/11-bounce-in-left.ebc9bc0f.gif">| `InRight`              |<img width="200" alt="portfolio_view" src="https://gayankuruppu.github.io/android-view-animations-java/static/media/12-bounce-in-right.a66d3b31.gif">|
