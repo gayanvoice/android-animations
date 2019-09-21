@@ -68,3 +68,16 @@ To animate the view, add the class name and specific animation method name`setAn
 | `OutLeft`          |<img width="200" alt="portfolio_view" src="https://gayankuruppu.github.io/android-view-animations-java/static/media/20-fade-out-left.7f1583e0.gif">| `OutRight`              |<img width="200" alt="portfolio_view" src="https://gayankuruppu.github.io/android-view-animations-java/static/media/21-fade-out-right.ff6adf09.gif">|
 | `FadeIn`          |<img width="200" alt="portfolio_view" src="https://gayankuruppu.github.io/android-view-animations-java/static/media/23-fade-in.532822b1.gif">| `FadeOut`              |<img width="200" alt="portfolio_view" src="https://gayankuruppu.github.io/android-view-animations-java/static/media/24-fade-out.a3ee0d3a.gif">|
 
+| `Flip`            |                    |                    |                    |
+| ----------------- | ------------------ | ------------------ | ------------------ |
+| `InX`          |<img width="200" alt="portfolio_view" src="https://gayankuruppu.github.io/android-view-animations-java/static/media/26-flip-in-x.1de9f264.gif">| `InY`              |<img width="200" alt="portfolio_view" src="https://gayankuruppu.github.io/android-view-animations-java/static/media/27-flip-in-y.8f45c5e1.gif">|
+| `OutX`          |<img width="200" alt="portfolio_view" src="https://gayankuruppu.github.io/android-view-animations-java/static/media/28-flip-out-x.09be8ac3.gif">| `OutY`              |<img width="200" alt="portfolio_view" src="https://gayankuruppu.github.io/android-view-animations-java/static/media/29-flip-out-y.f5c532a8.gif">|
+
+| `Flip`            |                    |                    |                    |
+| ----------------- | ------------------ | ------------------ | ------------------ |
+| `InX`          |<img width="200" alt="portfolio_view" src="https://gayankuruppu.github.io/android-view-animations-java/static/media/26-flip-in-x.1de9f264.gif">| `InY`              |<img width="200" alt="portfolio_view" src="https://gayankuruppu.github.io/android-view-animations-java/static/media/27-flip-in-y.8f45c5e1.gif">|
+
+
+
+
+
