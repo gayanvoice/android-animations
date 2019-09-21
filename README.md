@@ -5,10 +5,10 @@
 
 To animate the view, add the class name and specific animation method name`setAnimation` to an view. You can include the method `setDuration` to specify duration of animation. Default value for `duration` is `1000 Milliseconds`. Finally you need to add one of the following classes to the view:
 
-| Class Name        |                    |                     |                      |
-| ----------------- | ------------------ | ------------------- | -------------------- |
-| `Attention`       | `Bounce`           | `Fade`              | `Flip`               |
-| `Rotate`          | `Slide`            | `Zoom`              |                      |
+| Class Name  |             |             |             |             |             |		  |
+| ----------- | ----------- | ----------- | ----------- | ----------- | ----------- | ----------- |
+| `Attention` | `Bounce`    | `Fade`      | `Flip   `   | `Rotate`    | `Slide`     | `Zoom`      |
+
 
 | `Attention`       |                    |                    |                    |
 | ----------------- | ------------------ | ------------------ | ------------------ |
@@ -18,7 +18,13 @@ To animate the view, add the class name and specific animation method name`setAn
 | `Swing`           |<img width="200" alt="portfolio_view" src="https://gayankuruppu.github.io/android-view-animations-java/static/media/7-attention-swing.602dd7aa.gif">| `Tada`              |<img width="200" alt="portfolio_view" src="https://gayankuruppu.github.io/android-view-animations-java/static/media/8-attention-tada.faa9f3c1.gif">|
 | `Wave`            |<img width="200" alt="portfolio_view" src="https://gayankuruppu.github.io/android-view-animations-java/static/media/9-attention-wave.9a37979d.gif">| `Wobble`              |<img width="200" alt="portfolio_view" src="https://gayankuruppu.github.io/android-view-animations-java/static/media/10-attention-wobble.42ac8c56.gif">|
 
-
+| `Bounce`          |                    |                    |                    |
+| ----------------- | ------------------ | ------------------ | ------------------ |
+| `Bounce`          |<img width="200" alt="portfolio_view" src="https://gayankuruppu.github.io/android-view-animations-java/static/media/1-attention-bounce.c6335f3d.gif">| `Flash`              |<img width="200" alt="portfolio_view" src="https://gayankuruppu.github.io/android-view-animations-java/static/media/2-attention-flash.27fb56e5.gif">|
+| `Pulse`           |<img width="200" alt="portfolio_view" src="https://gayankuruppu.github.io/android-view-animations-java/static/media/3-attention-pulse.ee6d1fae.gif">| `Ruberband`              |<img width="200" alt="portfolio_view" src="https://gayankuruppu.github.io/android-view-animations-java/static/media/4-attention-ruberband.a701fa5b.gif">|
+| `Shake`           |<img width="200" alt="portfolio_view" src="https://gayankuruppu.github.io/android-view-animations-java/static/media/5-attention-shake.62d9243a.gif">| `Standup`              |<img width="200" alt="portfolio_view" src="https://gayankuruppu.github.io/android-view-animations-java/static/media/6-attention-standup.553e1945.gif">|
+| `Swing`           |<img width="200" alt="portfolio_view" src="https://gayankuruppu.github.io/android-view-animations-java/static/media/7-attention-swing.602dd7aa.gif">| `Tada`              |<img width="200" alt="portfolio_view" src="https://gayankuruppu.github.io/android-view-animations-java/static/media/8-attention-tada.faa9f3c1.gif">|
+| `Wave`            |<img width="200" alt="portfolio_view" src="https://gayankuruppu.github.io/android-view-animations-java/static/media/9-attention-wave.9a37979d.gif">| `Wobble`              |<img width="200" alt="portfolio_view" src="https://gayankuruppu.github.io/android-view-animations-java/static/media/10-attention-wobble.42ac8c56.gif">|
 
 # Usage
 ## Gradle
