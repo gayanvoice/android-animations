@@ -3,10 +3,11 @@
 
 <img width="360" alt="Android View Animations in Java" src="https://gayankuruppu.github.io/android-view-animations-java/static/media/1-android-view-animations-java.f0c24b80.gif"> <img width="360" alt="Android View Animations in Java" src="https://gayankuruppu.github.io/android-view-animations-java/static/media/0-android-view-animations-java.57f29c80.gif">
 
-## Usage
-### Gradle
+## Get
 
-Add it in your root build.gradle at the end of repositories:
+## Gradle
+
+1. Add this to `build.gradle` of project dependency
 
 ```java
 allprojects {
@@ -17,7 +18,7 @@ allprojects {
 }
 ```
 
-### Add the dependency
+2. Add this to `build.gradle` of module dependency
 
 ```java
 dependencies {
@@ -25,6 +26,31 @@ dependencies {
 }
 ```
 
+# Or
+
+## Maven
+
+1. Add this to `build.gradle` of project dependency
+
+```xml
+<repositories>
+	<repository>
+		<id>jitpack.io</id>
+	    	<url>https://jitpack.io</url>
+	</repository>
+</repositories>
+```
+
+2. Add this to `build.gradle` of module dependency
+
+```xml
+<dependency>
+	<groupId>com.github.gayankuruppu</groupId>
+	<artifactId>android-view-animations-java</artifactId>
+	<version>Tag</version>
+</dependency>
+```
+## Usage
 ### Import render animations
 
 ```java
