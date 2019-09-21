@@ -79,6 +79,7 @@ To animate the view, add the class name and specific animation method name`setAn
 | ----------- | ----------- | ----------- | ----------- | ----------- | ----------- | ----------- |
 | `Attention` | `Bounce`    | `Fade`      | `Flip   `   | `Rotate`    | `Slide`     | `Zoom`      |
 
+### Attention
 
 | `Attention`       |                    |  		      |                    |
 | ----------------- | ------------------ | ------------------ | ------------------ |
@@ -88,11 +89,15 @@ To animate the view, add the class name and specific animation method name`setAn
 | `Swing`           |<img width="200" alt="portfolio_view" src="https://gayankuruppu.github.io/android-view-animations-java/static/media/7-attention-swing.602dd7aa.gif">| `Tada`              |<img width="200" alt="portfolio_view" src="https://gayankuruppu.github.io/android-view-animations-java/static/media/8-attention-tada.faa9f3c1.gif">|
 | `Wave`            |<img width="200" alt="portfolio_view" src="https://gayankuruppu.github.io/android-view-animations-java/static/media/9-attention-wave.9a37979d.gif">| `Wobble`              |<img width="200" alt="portfolio_view" src="https://gayankuruppu.github.io/android-view-animations-java/static/media/10-attention-wobble.42ac8c56.gif">|
 
+### Bounce
+
 | `Bounce`	    |                    |       	      |                    |
 | ----------------- | ------------------ | ------------------ | ------------------ |
 | `InDown`          |<img width="200" alt="portfolio_view" src="https://gayankuruppu.github.io/android-view-animations-java/static/media/15-bounce-in-down.6aad1cbd.gif">| `InUp`              |<img width="200" alt="portfolio_view" src="https://gayankuruppu.github.io/android-view-animations-java/static/media/13-bounce-in-up.7a1d7c17.gif">|
 | `InLeft`           |<img width="200" alt="portfolio_view" src="https://gayankuruppu.github.io/android-view-animations-java/static/media/11-bounce-in-left.ebc9bc0f.gif">| `InRight`              |<img width="200" alt="portfolio_view" src="https://gayankuruppu.github.io/android-view-animations-java/static/media/12-bounce-in-right.a66d3b31.gif">|
 | `In`           |<img width="200" alt="portfolio_view" src="https://gayankuruppu.github.io/android-view-animations-java/static/media/14-bounce-in.2ef584a6.gif">	|		|		|
+
+### Fade
 
 | `Fade`            |                    |                    |                    |
 | ----------------- | ------------------ | ------------------ | ------------------ |
@@ -102,10 +107,14 @@ To animate the view, add the class name and specific animation method name`setAn
 | `OutLeft`          |<img width="200" alt="portfolio_view" src="https://gayankuruppu.github.io/android-view-animations-java/static/media/20-fade-out-left.7f1583e0.gif">| `OutRight`              |<img width="200" alt="portfolio_view" src="https://gayankuruppu.github.io/android-view-animations-java/static/media/21-fade-out-right.ff6adf09.gif">|
 | `In`               |<img width="200" alt="portfolio_view" src="https://gayankuruppu.github.io/android-view-animations-java/static/media/23-fade-in.532822b1.gif">| `Out`              |<img width="200" alt="portfolio_view" src="https://gayankuruppu.github.io/android-view-animations-java/static/media/24-fade-out.a3ee0d3a.gif">|
 
+### Flip
+
 | `Flip`            |                    |                    |                    |
 | ----------------- | ------------------ | ------------------ | ------------------ |
 | `InX`          |<img width="200" alt="portfolio_view" src="https://gayankuruppu.github.io/android-view-animations-java/static/media/26-flip-in-x.1de9f264.gif">| `InY`              |<img width="200" alt="portfolio_view" src="https://gayankuruppu.github.io/android-view-animations-java/static/media/27-flip-in-y.8f45c5e1.gif">|
 | `OutX`          |<img width="200" alt="portfolio_view" src="https://gayankuruppu.github.io/android-view-animations-java/static/media/28-flip-out-x.09be8ac3.gif">| `OutY`              |<img width="200" alt="portfolio_view" src="https://gayankuruppu.github.io/android-view-animations-java/static/media/29-flip-out-y.f5c532a8.gif">|
+
+### Rotate
 
 | `Rotate`          |                    |                    |                    |
 | ----------------- | ------------------ | ------------------ | ------------------ |
@@ -115,12 +124,16 @@ To animate the view, add the class name and specific animation method name`setAn
 | `OutUpLeft`          |<img width="200" alt="portfolio_view" src="https://gayankuruppu.github.io/android-view-animations-java/static/media/39-rotate-up-left.de13c028.gif">| `OutUpRight`              |<img width="200" alt="portfolio_view" src="https://gayankuruppu.github.io/android-view-animations-java/static/media/36-rotate-out-up-right.ddb7df75.gif">|
 | `In`          |<img width="200" alt="portfolio_view" src="https://gayankuruppu.github.io/android-view-animations-java/static/media/37-rotate-in.08924c36.gif">| `Out`              |<img width="200" alt="portfolio_view" src="https://gayankuruppu.github.io/android-view-animations-java/static/media/38-rotate-out.b127d7a8.gif">|
 
+### Slide
+
 | `Slide`          |                    |                    |                    |
 | ----------------- | ------------------ | ------------------ | ------------------ |
 | `InDown`          |<img width="200" alt="portfolio_view" src="https://gayankuruppu.github.io/android-view-animations-java/static/media/40-slide-in-down.efa18709.gif">| `InUp`              |<img width="200" alt="portfolio_view" src="https://gayankuruppu.github.io/android-view-animations-java/static/media/43-slide-in-up.0f918432.gif">|
 | `InLeft`          |<img width="200" alt="portfolio_view" src="https://gayankuruppu.github.io/android-view-animations-java/static/media/41-slide-in-left.da5a9127.gif">| `InRight`              |<img width="200" alt="portfolio_view" src="https://gayankuruppu.github.io/android-view-animations-java/static/media/42-slide-in-right.f0e33c31.gif">|
 | `OutDown`          |<img width="200" alt="portfolio_view" src="https://gayankuruppu.github.io/android-view-animations-java/static/media/44-slide-out-down.269616ff.gif">| `OutUp`              |<img width="200" alt="portfolio_view" src="https://gayankuruppu.github.io/android-view-animations-java/static/media/47-slide-out-up.7efa439e.gif">|
 | `OutLeft`          |<img width="200" alt="portfolio_view" src="https://gayankuruppu.github.io/android-view-animations-java/static/media/45-slide-out-left.4226eca7.gif">| `OutRight`              |<img width="200" alt="portfolio_view" src="https://gayankuruppu.github.io/android-view-animations-java/static/media/46-slide-out-right.f283b64b.gif">|
+
+### Zoom
 
 | `Zoom`            |                    |                    |                    |
 | ----------------- | ------------------ | ------------------ | ------------------ |
