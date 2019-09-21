@@ -4,7 +4,7 @@
 Android animations for views such as Button, TextView, ImageView and etc. Just import the library and start coding ;)
 ![test image size](https://gayankuruppu.github.io/android-view-animations-java/static/media/1-attention-bounce.c6335f3d.gif)
 
-![test image size](https://gayankuruppu.github.io/android-view-animations-java/static/media/1-attention-bounce.c6335f3d.gif){:height="50%" width="50%"}
+<img width="200" alt="portfolio_view" src="https://gayankuruppu.github.io/android-view-animations-java/static/media/1-attention-bounce.c6335f3d.gif">
 
 # Usage
 ## Gradle
