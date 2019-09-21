@@ -105,4 +105,4 @@ To animate the view, add the class name and specific animation method name`setAn
 | `In`          |<img width="200" alt="portfolio_view" src="https://gayankuruppu.github.io/android-view-animations-java/static/media/55-zoom-in.1c0c5d5a.gif">| `Out`              |<img width="200" alt="portfolio_view" src="https://gayankuruppu.github.io/android-view-animations-java/static/media/56-zoom-out.f0c52b21.gif">|
 
 ## Thanks
-This library is based on https://github.com/daimajia/AndroidViewAnimations and the Kotlin version of this library is available at https://github.com/gayankuruppu/android-view-animations-kotlin
+This library is based on https://github.com/daimajia/AndroidViewAnimations and the Kotlin version of this library is available in  https://github.com/gayankuruppu/android-view-animations-kotlin
