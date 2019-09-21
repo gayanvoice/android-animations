@@ -24,6 +24,14 @@ To animate the view, add the class name and specific animation method name`setAn
 | `InLeft`           |<img width="200" alt="portfolio_view" src="https://gayankuruppu.github.io/android-view-animations-java/static/media/11-bounce-in-left.ebc9bc0f.gif">| `InRight`              |<img width="200" alt="portfolio_view" src="https://gayankuruppu.github.io/android-view-animations-java/static/media/12-bounce-in-right.a66d3b31.gif">|
 | `In`           |<img width="200" alt="portfolio_view" src="https://gayankuruppu.github.io/android-view-animations-java/static/media/14-bounce-in.2ef584a6.gif">	|		|		|
 
+| `Bounce`          |                    |                    |                    |
+| ----------------- | ------------------ | ------------------ | ------------------ |
+| `InDown`          |<img width="200" alt="portfolio_view" src="https://gayankuruppu.github.io/android-view-animations-java/static/media/18-fade-in-down.24e645e6.gif">| `InUp`              |<img width="200" alt="portfolio_view" src="https://gayankuruppu.github.io/android-view-animations-java/static/media/19-fade-in-up.a2b79fa7.gif">|
+| `InLeft`          |<img width="200" alt="portfolio_view" src="https://gayankuruppu.github.io/android-view-animations-java/static/media/16-fade-in-left.6e93da17.gif">| `InRight`              |<img width="200" alt="portfolio_view" src="https://gayankuruppu.github.io/android-view-animations-java/static/media/17-fade-in-right.59345f8c.gif">|
+| `OutDown`          |<img width="200" alt="portfolio_view" src="https://gayankuruppu.github.io/android-view-animations-java/static/media/22-fade-out-down.4f4ebc27.gif">| `OutUp`              |<img width="200" alt="portfolio_view" src="https://gayankuruppu.github.io/android-view-animations-java/static/media/25-fade-out-up.75f60e2d.gif">|
+| `OutLeft`          |<img width="200" alt="portfolio_view" src="https://gayankuruppu.github.io/android-view-animations-java/static/media/20-fade-out-left.7f1583e0.gif">| `OutRight`              |<img width="200" alt="portfolio_view" src="https://gayankuruppu.github.io/android-view-animations-java/static/media/21-fade-out-right.ff6adf09.gif">|
+| `FadeIn`          |<img width="200" alt="portfolio_view" src="https://gayankuruppu.github.io/android-view-animations-java/static/media/23-fade-in.532822b1.gif">| `FadeOut`              |<img width="200" alt="portfolio_view" src="https://gayankuruppu.github.io/android-view-animations-java/static/media/24-fade-out.a3ee0d3a.gif">|
+
 # Usage
 ## Gradle
 Add it in your root build.gradle at the end of repositories:
