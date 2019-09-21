@@ -63,6 +63,7 @@ To animate the view, add the class name and specific animation method name`setAn
 | `Shake`           |<img width="200" alt="portfolio_view" src="https://gayankuruppu.github.io/android-view-animations-java/static/media/5-attention-shake.62d9243a.gif">| `Standup`              |<img width="200" alt="portfolio_view" src="https://gayankuruppu.github.io/android-view-animations-java/static/media/6-attention-standup.553e1945.gif">|
 | `Swing`           |<img width="200" alt="portfolio_view" src="https://gayankuruppu.github.io/android-view-animations-java/static/media/7-attention-swing.602dd7aa.gif">| `Tada`              |<img width="200" alt="portfolio_view" src="https://gayankuruppu.github.io/android-view-animations-java/static/media/8-attention-tada.faa9f3c1.gif">|
 | `Wave`            |<img width="200" alt="portfolio_view" src="https://gayankuruppu.github.io/android-view-animations-java/static/media/9-attention-wave.9a37979d.gif">| `Wobble`              |<img width="200" alt="portfolio_view" src="https://gayankuruppu.github.io/android-view-animations-java/static/media/10-attention-wobble.42ac8c56.gif">|
+
 | `Bounce`	    |                    |       	      |                    |
 | ----------------- | ------------------ | ------------------ | ------------------ |
 | `InDown`          |<img width="200" alt="portfolio_view" src="https://gayankuruppu.github.io/android-view-animations-java/static/media/15-bounce-in-down.6aad1cbd.gif">| `InUp`              |<img width="200" alt="portfolio_view" src="https://gayankuruppu.github.io/android-view-animations-java/static/media/13-bounce-in-up.7a1d7c17.gif">|
@@ -84,8 +85,11 @@ To animate the view, add the class name and specific animation method name`setAn
 
 | `Rotate`          |                    |                    |                    |
 | ----------------- | ------------------ | ------------------ | ------------------ |
-| `InDownLeft`          |<img width="200" alt="portfolio_view" src="">| `InDownRight`              |<img width="200" alt="portfolio_view" src="">|
-
+| `InDownLeft`          |<img width="200" alt="portfolio_view" src="https://gayankuruppu.github.io/android-view-animations-java/static/media/30-rotate-in-down-left.cdd124aa.gif">| `InDownRight`              |<img width="200" alt="portfolio_view" src="https://gayankuruppu.github.io/android-view-animations-java/static/media/31-rotate-in-down-right.f0693f8b.gif">|
+| `InUpLeft`          |<img width="200" alt="portfolio_view" src="https://gayankuruppu.github.io/android-view-animations-java/static/media/32-rotate-in-up-left.f818146d.gif">| `InUpRight`              |<img width="200" alt="portfolio_view" src="https://gayankuruppu.github.io/android-view-animations-java/static/media/33-rotate-in-up-right.537606e2.gif">|
+| `OutDownLeft`          |<img width="200" alt="portfolio_view" src="https://gayankuruppu.github.io/android-view-animations-java/static/media/34-rotate-out-down-left.de06d895.gif">| `OutDownRight`              |<img width="200" alt="portfolio_view" src="https://gayankuruppu.github.io/android-view-animations-java/static/media/35-rotate-out-down-right.f4505ac5.gif">|
+| `OutUpLeft`          |<img width="200" alt="portfolio_view" src="https://gayankuruppu.github.io/android-view-animations-java/static/media/39-rotate-up-left.de13c028.gif">| `OutUpRight`              |<img width="200" alt="portfolio_view" src="https://gayankuruppu.github.io/android-view-animations-java/static/media/36-rotate-out-up-right.ddb7df75.gif">|
+| `In`          |<img width="200" alt="portfolio_view" src="https://gayankuruppu.github.io/android-view-animations-java/static/media/37-rotate-in.08924c36.gif">| `Out`              |<img width="200" alt="portfolio_view" src="https://gayankuruppu.github.io/android-view-animations-java/static/media/38-rotate-out.b127d7a8.gif">|
 
 
 
