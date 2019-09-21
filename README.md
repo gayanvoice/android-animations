@@ -37,7 +37,7 @@ To animate the view, add the class name and specific animation method name`setAn
 # Usage
 ## Gradle
 Add it in your root build.gradle at the end of repositories:
-```
+```java
 allprojects {
   repositories {
 		...
@@ -46,20 +46,24 @@ allprojects {
 }
 ```
 ## Add the dependency
-```
+```java
 dependencies {
   	implementation 'com.github.gayankuruppu:android-view-animations-java:1.0.1'
 }
 ```
 ## Import render animations
-```
+```java
 import render.animations.*;
 ```
 ## Start animation
-```
+```java
+// Declare TextView
 TextView TextView = findViewById(R.id.TextView);
 
+// Create Render Class
 Render render = new Render(MainActivity.this);
+
+// Set Animation
 render.setAnimation(Attention.Wobble(TextView));
 render.start();
 ```
