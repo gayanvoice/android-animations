@@ -21,7 +21,7 @@ allprojects {
 
 ```java
 dependencies {
-  	implementation 'com.github.gayankuruppu:android-view-animations-java:1.0.1'
+  	implementation 'com.github.gayankuruppu:android-view-animations-java:1.0.2'
 }
 ```
 
