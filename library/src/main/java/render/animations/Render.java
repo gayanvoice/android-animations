@@ -28,6 +28,11 @@ import android.animation.AnimatorSet;
 import android.content.Context;
 import android.view.animation.AccelerateDecelerateInterpolator;
 
+/*
+Kotlin version of the Render class
+https://github.com/gayankuruppu/android-view-animations-kotlin/blob/master/library/src/main/java/render/animations/Render.kt
+*/
+
 public class Render {
     private long duration = 1000;
     private Context cx;

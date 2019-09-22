@@ -28,6 +28,11 @@ import android.animation.AnimatorSet;
 import android.animation.ObjectAnimator;
 import android.view.View;
 
+/*
+Kotlin version of the Bounce class
+https://github.com/gayankuruppu/android-view-animations-kotlin/blob/master/library/src/main/java/render/animations/Bounce.kt
+*/
+
 public class Bounce {
     public static AnimatorSet In(View view) {
         AnimatorSet animatorSet = new AnimatorSet();

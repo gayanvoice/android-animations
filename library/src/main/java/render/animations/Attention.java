@@ -28,6 +28,11 @@ import android.animation.AnimatorSet;
 import android.animation.ObjectAnimator;
 import android.view.View;
 
+/*
+Kotlin version of the Attention class
+https://github.com/gayankuruppu/android-view-animations-kotlin/blob/master/library/src/main/java/render/animations/Attention.kt
+*/
+
 public class Attention{
     public static AnimatorSet Bounce(View view) {
         AnimatorSet animatorSet = new AnimatorSet();

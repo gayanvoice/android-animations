@@ -29,6 +29,11 @@ import android.animation.ObjectAnimator;
 import android.view.View;
 import android.view.ViewGroup;
 
+/*
+Kotlin version of the Slide class
+https://github.com/gayankuruppu/android-view-animations-kotlin/blob/master/library/src/main/java/render/animations/Slide.kt
+*/
+
 public class Slide {
 
     /*

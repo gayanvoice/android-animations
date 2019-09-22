@@ -28,6 +28,11 @@ import android.animation.AnimatorSet;
 import android.animation.ObjectAnimator;
 import android.view.View;
 
+/*
+Kotlin version of the Flip class
+https://github.com/gayankuruppu/android-view-animations-kotlin/blob/master/library/src/main/java/render/animations/Flip.kt
+*/
+
 public class Flip {
 
     /*
