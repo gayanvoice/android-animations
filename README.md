@@ -143,5 +143,14 @@ To animate the view, add the class name and specific animation method name`setAn
 | `OutLeft`          |<img width="200" alt="portfolio_view" src="https://gayankuruppu.github.io/android-view-animations-java/static/media/53-zoom-out-left.79cb419d.gif">| `OutRight`              |<img width="200" alt="portfolio_view" src="https://gayankuruppu.github.io/android-view-animations-java/static/media/54-zoom-out-right.7a3ac74d.gif">|
 | `In`          |<img width="200" alt="portfolio_view" src="https://gayankuruppu.github.io/android-view-animations-java/static/media/55-zoom-in.1c0c5d5a.gif">| `Out`              |<img width="200" alt="portfolio_view" src="https://gayankuruppu.github.io/android-view-animations-java/static/media/56-zoom-out.f0c52b21.gif">|
 
+## Develop the library
+
+1. Select `Git` from `Check out project from Version Control` in your Android Studio
+2. Paste the repository url and click `Clone` button
+3. Click `Yes` to open the repository
+4. `Build` using the latest `Gradle` version
+
+Go to https://github.com/gayankuruppu/android-vpn-client-ics-openvpn#develop see the steps
+
 ## Thanks
 This library is based on https://github.com/daimajia/AndroidViewAnimations and the Kotlin version of this library is available in  https://github.com/gayankuruppu/android-view-animations-kotlin
