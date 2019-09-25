@@ -131,8 +131,9 @@ public class Attention{
         AnimatorSet animatorSet = new AnimatorSet();
         float width = view.getWidth();
         float one = (float) (width / 100.0);
+        float x = 0 * one;
 
-        ObjectAnimator object1 = ObjectAnimator.ofFloat(view,   "translationX", 0 * one, -25 * one, 20 * one, -15 * one, 10 * one, -5 * one, 0 * one, 0);
+        ObjectAnimator object1 = ObjectAnimator.ofFloat(view,   "translationX", x, -25 * one, 20 * one, -15 * one, 10 * one, -5 * one, x, 0);
         ObjectAnimator object2 = ObjectAnimator.ofFloat(view, "rotation", 0, -5, 3, -3, 2, -1, 0);
 
         animatorSet.playTogether(object1, object2);
