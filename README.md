@@ -4,9 +4,7 @@
 <img width="360" alt="Android View Animations in Java" src="https://gayankuruppu.github.io/android-view-animations-java/static/media/2-android-view-animations-java.1fe3487e.gif"> <img width="360" alt="Android View Animations in Java" src="https://gayankuruppu.github.io/android-view-animations-java/static/media/0-android-view-animations-java.57f29c80.gif">
 
 ## Get
-
 ### Gradle
-
 1. Add this to `build.gradle` of project gradle dependency
 
 ```groovy
