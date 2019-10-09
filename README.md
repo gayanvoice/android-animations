@@ -5,7 +5,7 @@
 ### Also: Create your Android VPN client in few steps by using Android Studio https://git.io/JeY69
 
 
-### Also: Alternative to Google Firebase REmote Config! Remote config the variables, appearance and the behavior of your app without publishing an app update https://git.io/JeW2o
+### Also: Alternative to Google Firebase Remote Config! Remote config the variables, appearance and the behavior of your app without publishing an app update https://git.io/JeW2o
 
 
 ### Are you a Kotlin developer? Go and see the Kotlin version of this library https://git.io/JeCRG
