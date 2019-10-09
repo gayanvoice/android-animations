@@ -1,6 +1,14 @@
 # Android View Animations in Java
 [![Build Status](https://travis-ci.org/gayankuruppu/android-view-animations-java.svg?branch=master)](https://travis-ci.org/gayankuruppu/android-view-animations-java) [![](https://jitpack.io/v/gayankuruppu/android-view-animations-java.svg)](https://jitpack.io/#gayankuruppu/android-view-animations-java) [![API](https://img.shields.io/badge/API-14%2B-brightgreen.svg?style=flat)](https://android-arsenal.com/api?level=14) ![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/gayankuruppu/android-view-animations-java)
 
+## Also: Create your Android VPN client in few steps by using Android Studio https://git.io/JeY69
+
+### Also: Alternative to Google Firebase REmote Config! Remote config the variables, appearance and the behavior of your app without publishing an app update https://git.io/JeW2o
+
+### Are you a Kotlin developer? Go and see the Kotlin version of this library https://git.io/JeCRG
+
+### Add animations in to your android app layouts https://git.io/JeW26
+
 <img width="360" alt="Android View Animations in Java" src="https://gayankuruppu.github.io/android-view-animations-java/static/media/2-android-view-animations-java.1fe3487e.gif"> <img width="360" alt="Android View Animations in Java" src="https://gayankuruppu.github.io/android-view-animations-java/static/media/0-android-view-animations-java.57f29c80.gif">
 
 ## Get
