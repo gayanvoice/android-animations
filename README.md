@@ -1,7 +1,7 @@
 # Android View Animations in Java
 [![Build Status](https://travis-ci.org/gayanvoice/android-view-animations-java.svg?branch=master)](https://travis-ci.org/gayanvoice/android-view-animations-java) [![](https://jitpack.io/v/gayanvoice/android-view-animations-java.svg)](https://jitpack.io/#gayanvoice/android-view-animations-java) [![API](https://img.shields.io/badge/API-14%2B-brightgreen.svg?style=flat)](https://android-arsenal.com/api?level=14) ![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/gayanvoice/android-view-animations-java)
 
-<img width="360" alt="Android View Animations in Java" src="https://gayanvoice.github.io/android-view-animations-java/static/media/2-android-view-animations-java.1fe3487e.gif"> <img width="360" alt="Android View Animations in Java" src="https://gayanvoice.github.io/android-view-animations-java/static/media/0-android-view-animations-java.57f29c80.gif">
+<img width="360" alt="Android View Animations in Java" src="https://gayanvoice.github.io/android-view-animations-java/static/media/2-android-view-animations-java.1fe3487e.gif"> <img width="360" alt="Android View Animations in Java" src="https://gayanvoice.github.io/android-animations-java/static/media/0-android-view-animations-java.57f29c80.gif">
 
 ## Get
 ### Gradle
@@ -81,11 +81,11 @@ To animate the view, add the class name and specific animation method name`setAn
 
 | `Attention`       |                    |  		      |                    |
 | ----------------- | ------------------ | ------------------ | ------------------ |
-| `Bounce`|<img width="200" alt="portfolio_view" src="https://gayanvoice.github.io/android-view-animations-java/static/media/1-attention-bounce.c6335f3d.gif">| `Flash`              |<img width="200" alt="portfolio_view" src="https://gayanvoice.github.io/android-view-animations-java/static/media/2-attention-flash.27fb56e5.gif">|
-| `Pulse`           |<img width="200" alt="portfolio_view" src="https://gayanvoice.github.io/android-view-animations-java/static/media/3-attention-pulse.ee6d1fae.gif">| `Ruberband`              |<img width="200" alt="portfolio_view" src="https://gayanvoice.github.io/android-view-animations-java/static/media/4-attention-ruberband.a701fa5b.gif">|
-| `Shake`           |<img width="200" alt="portfolio_view" src="https://gayanvoice.github.io/android-view-animations-java/static/media/5-attention-shake.62d9243a.gif">| `Standup`              |<img width="200" alt="portfolio_view" src="https://gayanvoice.github.io/android-view-animations-java/static/media/6-attention-standup.553e1945.gif">|
-| `Swing`           |<img width="200" alt="portfolio_view" src="https://gayanvoice.github.io/android-view-animations-java/static/media/7-attention-swing.602dd7aa.gif">| `Tada`              |<img width="200" alt="portfolio_view" src="https://gayanvoice.github.io/android-view-animations-java/static/media/8-attention-tada.faa9f3c1.gif">|
-| `Wave`            |<img width="200" alt="portfolio_view" src="https://gayanvoice.github.io/android-view-animations-java/static/media/9-attention-wave.9a37979d.gif">| `Wobble`              |<img width="200" alt="portfolio_view" src="https://gayanvoice.github.io/android-view-animations-java/static/media/10-attention-wobble.42ac8c56.gif">|
+| `Bounce`|<img width="200" alt="portfolio_view" src="https://gayanvoice.github.io/android-animations-java/static/media/1-attention-bounce.c6335f3d.gif">| `Flash`              |<img width="200" alt="portfolio_view" src="https://gayanvoice.github.io/android-animations-java/static/media/2-attention-flash.27fb56e5.gif">|
+| `Pulse`           |<img width="200" alt="portfolio_view" src="https://gayanvoice.github.io/android-animations-java/static/media/3-attention-pulse.ee6d1fae.gif">| `Ruberband`              |<img width="200" alt="portfolio_view" src="https://gayanvoice.github.io/android-animations-java/static/media/4-attention-ruberband.a701fa5b.gif">|
+| `Shake`           |<img width="200" alt="portfolio_view" src="https://gayanvoice.github.io/android-animations-java/static/media/5-attention-shake.62d9243a.gif">| `Standup`              |<img width="200" alt="portfolio_view" src="https://gayanvoice.github.io/android-animations-java/static/media/6-attention-standup.553e1945.gif">|
+| `Swing`           |<img width="200" alt="portfolio_view" src="https://gayanvoice.github.io/android-animations-java/static/media/7-attention-swing.602dd7aa.gif">| `Tada`              |<img width="200" alt="portfolio_view" src="https://gayanvoice.github.io/android-animations-java/static/media/8-attention-tada.faa9f3c1.gif">|
+| `Wave`            |<img width="200" alt="portfolio_view" src="https://gayanvoice.github.io/android-animations-java/static/media/9-attention-wave.9a37979d.gif">| `Wobble`              |<img width="200" alt="portfolio_view" src="https://gayanvoice.github.io/android-animations-java/static/media/10-attention-wobble.42ac8c56.gif">|
 
 ### Bounce
 
