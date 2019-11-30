@@ -20,7 +20,7 @@ allprojects {
 
 ```groovy
 dependencies {
-	implementation 'com.github.gayanvoice:android-view-animations-java:1.0.2'
+	implementation 'com.github.gayanvoice:android-animations:1.0.2'
 }
 ```
 
