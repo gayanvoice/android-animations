@@ -44,7 +44,7 @@ dependencies {
 ```xml
 <dependency>
 	<groupId>com.github.gayanvoice</groupId>
-	<artifactId>android-view-animations-java</artifactId>
+	<artifactId>android-animations</artifactId>
 	<version>1.0.2</version>
 </dependency>
 ```
